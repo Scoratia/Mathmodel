@@ -1,0 +1,36 @@
+[
+  {
+    "problem": 3,
+    "nr": 40,
+    "nz": 40,
+    "time_2d_h": 57.48255697108091,
+    "time_1d_same_nr_h": 57.48471000677599,
+    "time_difference_s": -7.750928502267925,
+    "change_pct": -0.003745405856303563,
+    "maximum_grid_location_r_z_m": [
+      0.0,
+      0.0
+    ],
+    "max_midplane_profile_difference_C": 2.2572737191917103e-06,
+    "mean_2d_C_at_crossing": 0.12067458413741756,
+    "end_face_center_C_at_crossing": 0.05230848528748502,
+    "wall_s": 92.00222950003808
+  },
+  {
+    "problem": 4,
+    "nr": 40,
+    "nz": 40,
+    "time_2d_h": 51.09806275008646,
+    "time_1d_same_nr_h": 51.098075319652864,
+    "time_difference_s": -0.04525043902685866,
+    "change_pct": -2.4598903813899398e-05,
+    "maximum_grid_location_r_z_m": [
+      0.0,
+      0.0
+    ],
+    "max_midplane_profile_difference_C": 2.3230086215741963e-08,
+    "mean_2d_C_at_crossing": 0.11571150678674641,
+    "end_face_center_C_at_crossing": 0.05204895560900486,
+    "wall_s": 105.51508630003082
+  }
+]

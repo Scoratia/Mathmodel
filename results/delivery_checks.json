@@ -1,0 +1,35 @@
+{
+  "numerical_gate": "PASS",
+  "export_gate": "PASS",
+  "workbooks": [
+    {
+      "file": "result1.xlsx",
+      "checked_cells": 79244,
+      "blank_outside_material": 0,
+      "sha256": "6d53c18c087f9cd0b093e15e064b4b38db5fc0cffe98c48fdc452c6bdef3230a",
+      "status": "PASS"
+    },
+    {
+      "file": "result2.xlsx",
+      "checked_cells": 475244,
+      "blank_outside_material": 0,
+      "sha256": "dadf7168a65738e7b8ff1dcaa51577d8d8aa3c1ebc416be3535de87663478460",
+      "status": "PASS"
+    },
+    {
+      "file": "result3.xlsx",
+      "checked_cells": 75900,
+      "blank_outside_material": 0,
+      "sha256": "1f822c234026f776705d532dc7078dea294b12d7d611b317e9f7dad40529d876",
+      "status": "PASS"
+    },
+    {
+      "file": "result4.xlsx",
+      "checked_cells": 73608,
+      "blank_outside_material": 23167,
+      "sha256": "095b018a91a9cf75b20d651729fcc39d850f8ae5a898aa9aa31543b6a59a2ea8",
+      "status": "PASS"
+    }
+  ],
+  "scope": "All saved workbook cells compared to rounded solver payloads; numerical tests concern stated effective model, not experimental validation."
+}
