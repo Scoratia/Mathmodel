@@ -1,0 +1,9 @@
+{
+  "numerical_checks": "PASS",
+  "dry_mass_checks": "PASS",
+  "water_balance_checks": "PASS",
+  "sensible_energy_checks": "PASS",
+  "experimental_validation": "NOT_AVAILABLE",
+  "commercial_solver_verification": "NOT_RUN",
+  "literal_empirical_density_preserved": "NO: documented alternative closure"
+}

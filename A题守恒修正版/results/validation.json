@@ -1,0 +1,357 @@
+{
+  "model": "conserved dry material cells, conservative water and sensible enthalpy, no explicit latent heat",
+  "mesh": [
+    {
+      "problem": 1,
+      "n": 80,
+      "time_h": 0.5
+    },
+    {
+      "problem": 1,
+      "n": 160,
+      "time_h": 0.5,
+      "delta_time_s": 0.0,
+      "max_T_delta_C": 0.0010992475105240374,
+      "max_C_delta": 0.00042022839464417316
+    },
+    {
+      "problem": 1,
+      "n": 320,
+      "time_h": 0.5,
+      "delta_time_s": 0.0,
+      "max_T_delta_C": 0.00033958398443445503,
+      "max_C_delta": 0.00010219213924189674
+    },
+    {
+      "problem": 1,
+      "n": 640,
+      "time_h": 0.5,
+      "delta_time_s": 0.0,
+      "max_T_delta_C": 8.111964815782358e-05,
+      "max_C_delta": 2.541125334065697e-05
+    },
+    {
+      "problem": 1,
+      "n": 1280,
+      "time_h": 0.5,
+      "delta_time_s": 0.0,
+      "max_T_delta_C": 1.7968148327440758e-05,
+      "max_C_delta": 6.308879990868377e-06,
+      "all_export_points": {
+        "times_checked": 1800,
+        "includes_strict_full_minute": false,
+        "includes_actual_moving_surface": false,
+        "max_T_difference_C": 1.7968148327440758e-05,
+        "max_C_difference": 6.308879990868377e-06
+      }
+    },
+    {
+      "problem": 3,
+      "n": 80,
+      "time_h": 57.468694169576246
+    },
+    {
+      "problem": 3,
+      "n": 160,
+      "time_h": 57.46895825774776,
+      "delta_time_s": 0.9507174174359534,
+      "max_T_delta_C": 0.001039306220498304,
+      "max_C_delta": 0.00038309014225923477
+    },
+    {
+      "problem": 3,
+      "n": 320,
+      "time_h": 57.46902110093292,
+      "delta_time_s": 0.2262354665726889,
+      "max_T_delta_C": 0.00032375944623197483,
+      "max_C_delta": 0.0001177627687871663
+    },
+    {
+      "problem": 3,
+      "n": 640,
+      "time_h": 57.46903652671491,
+      "delta_time_s": 0.05553281516768038,
+      "max_T_delta_C": 7.738225448861158e-05,
+      "max_C_delta": 2.856276974272376e-05
+    },
+    {
+      "problem": 3,
+      "n": 1280,
+      "time_h": 57.469040480576844,
+      "delta_time_s": 0.014233902969863266,
+      "max_T_delta_C": 1.4931783052674064e-05,
+      "max_C_delta": 5.186630703590822e-06,
+      "all_export_points": {
+        "times_checked": 14069,
+        "includes_strict_full_minute": true,
+        "includes_actual_moving_surface": false,
+        "max_T_difference_C": 3.0057769819791247e-05,
+        "max_C_difference": 5.186630703590822e-06
+      }
+    },
+    {
+      "problem": 4,
+      "n": 80,
+      "time_h": 51.107577666578415
+    },
+    {
+      "problem": 4,
+      "n": 160,
+      "time_h": 51.108007701734046,
+      "delta_time_s": 1.5481265602866188,
+      "max_T_delta_C": 0.0016778103689460977,
+      "max_C_delta": 0.0006389100058212804
+    },
+    {
+      "problem": 4,
+      "n": 320,
+      "time_h": 51.1081113960074,
+      "delta_time_s": 0.37329938408220187,
+      "max_T_delta_C": 0.0005216134069314649,
+      "max_C_delta": 0.00019185365771257068
+    },
+    {
+      "problem": 4,
+      "n": 640,
+      "time_h": 51.108140554505944,
+      "delta_time_s": 0.1049705947516486,
+      "max_T_delta_C": 0.0001242805705317096,
+      "max_C_delta": 4.6603292832347876e-05
+    },
+    {
+      "problem": 4,
+      "n": 1280,
+      "time_h": 51.10814907593916,
+      "delta_time_s": 0.030677159578772262,
+      "max_T_delta_C": 1.8810231338761696e-05,
+      "max_C_delta": 7.700465820992264e-06,
+      "all_export_points": {
+        "times_checked": 3067,
+        "includes_strict_full_minute": true,
+        "includes_actual_moving_surface": true,
+        "max_T_difference_C": 4.098527593043855e-05,
+        "max_C_difference": 1.31104834504292e-05
+      }
+    }
+  ],
+  "balance": {
+    "1": {
+      "dry_mass_kg": 0.07256636551953889,
+      "water_initial_kg": 0.18504423207482418,
+      "water_end_kg": 0.16643510611744433,
+      "wet_mass_end_kg": 0.2390014716369832,
+      "max_global_dry_mass_relative_error": 2.220446049250313e-16,
+      "max_cell_dry_mass_relative_error": 2.220446049250313e-16,
+      "max_water_rate_residual_kg_s": 1.6940658945086007e-21,
+      "max_energy_rate_residual_W": 6.661338147750939e-16,
+      "independent_time_integrals": [
+        {
+          "sampling_step_s": 10.0,
+          "outward_water_kg": 0.01860961028263141,
+          "water_residual_kg": 4.843252515637775e-07,
+          "relative_water_residual": 2.6173485449032343e-06,
+          "outward_sensible_energy_J": -3163.0390113468957,
+          "energy_residual_J": 0.0359319229146422,
+          "relative_energy_residual": 1.915955222012279e-06
+        },
+        {
+          "sampling_step_s": 5.0,
+          "outward_water_kg": 0.018609297140637655,
+          "water_residual_kg": 1.711832578084327e-07,
+          "relative_water_residual": 9.250937242897325e-07,
+          "outward_sensible_energy_J": -3163.062148797892,
+          "energy_residual_J": 0.0127944719183688,
+          "relative_energy_residual": 6.822244204163895e-07
+        }
+      ],
+      "C_min": 1.5102350176440358,
+      "C_max": 2.5500000000000007,
+      "T_min": 28.0,
+      "T_max": 36.97272227986813,
+      "max_radial_C_increase": 1.7763568394002505e-15
+    },
+    "3": {
+      "dry_mass_kg": 0.08640707230887533,
+      "water_initial_kg": 0.22033803438763208,
+      "water_end_kg": 0.010741062039197535,
+      "wet_mass_end_kg": 0.09714813434807286,
+      "max_global_dry_mass_relative_error": 0.0,
+      "max_cell_dry_mass_relative_error": 4.440892098500626e-16,
+      "max_water_rate_residual_kg_s": 1.6940658945086007e-21,
+      "max_energy_rate_residual_W": 2.220446049250313e-16,
+      "independent_time_integrals": [
+        {
+          "sampling_step_s": 10.0,
+          "outward_water_kg": 0.2095975114161526,
+          "water_residual_kg": 5.39067718047237e-07,
+          "relative_water_residual": 2.4465486385290896e-06,
+          "outward_sensible_energy_J": 20821.153838744962,
+          "energy_residual_J": 0.08197926810680656,
+          "relative_energy_residual": 2.1738965997394052e-06
+        },
+        {
+          "sampling_step_s": 5.0,
+          "outward_water_kg": 0.20959716261060438,
+          "water_residual_kg": 1.9026216982465094e-07,
+          "relative_water_residual": 8.63501257753485e-07,
+          "outward_sensible_energy_J": 20821.104123484718,
+          "energy_residual_J": 0.03226400786297745,
+          "relative_energy_residual": 8.555676533087658e-07
+        }
+      ],
+      "C_min": 0.052646942474856,
+      "C_max": 2.55,
+      "T_min": 28.0,
+      "T_max": 50.007302256239036,
+      "max_radial_C_increase": 0.0
+    },
+    "4": {
+      "dry_mass_kg": 0.0875663642458338,
+      "water_initial_kg": 0.22329422882687622,
+      "water_end_kg": 0.01036825145665928,
+      "wet_mass_end_kg": 0.09793461570249308,
+      "max_global_dry_mass_relative_error": 0.0,
+      "max_cell_dry_mass_relative_error": 4.440892098500626e-16,
+      "max_water_rate_residual_kg_s": 8.470329472543003e-22,
+      "max_energy_rate_residual_W": 2.220446049250313e-16,
+      "independent_time_integrals": [
+        {
+          "sampling_step_s": 10.0,
+          "outward_water_kg": 0.21292724606437127,
+          "water_residual_kg": 1.2686941543438301e-06,
+          "relative_water_residual": 5.681714932845265e-06,
+          "outward_sensible_energy_J": 19371.722793543955,
+          "energy_residual_J": 0.1536679452219687,
+          "relative_energy_residual": 3.8302415515943036e-06
+        },
+        {
+          "sampling_step_s": 5.0,
+          "outward_water_kg": 0.2129264262714329,
+          "water_residual_kg": 4.489012159769601e-07,
+          "relative_water_residual": 2.010357447818326e-06,
+          "outward_sensible_energy_J": 19371.623753221378,
+          "energy_residual_J": 0.05462762264505727,
+          "relative_energy_residual": 1.361619257577695e-06
+        }
+      ],
+      "C_min": 0.05260749883973861,
+      "C_max": 2.55,
+      "T_min": 28.0,
+      "T_max": 50.00574582670987,
+      "max_radial_C_increase": 4.440892098500626e-16
+    }
+  },
+  "ablations": [
+    {
+      "problem": 3,
+      "case": "empirical thermal density, dry-mass accounting only",
+      "time_h": 57.473913423803936,
+      "delta_vs_selected_s": 17.838597802241566,
+      "settings": {
+        "thermal_closure": "empirical"
+      }
+    },
+    {
+      "problem": 3,
+      "case": "conserved wet density, heat capacity only",
+      "time_h": 57.46788703383577,
+      "delta_vs_selected_s": -3.856406083155889,
+      "settings": {
+        "thermal_closure": "capacity"
+      }
+    },
+    {
+      "problem": 3,
+      "case": "conservative surface latent heat sensitivity",
+      "time_h": 60.4298695164191,
+      "delta_vs_selected_s": 10659.28053121685,
+      "settings": {
+        "latent_fraction": 1.0
+      }
+    },
+    {
+      "problem": 4,
+      "case": "empirical thermal density, dry-mass accounting only",
+      "time_h": 51.08836636003945,
+      "delta_vs_selected_s": -70.7088301005424,
+      "settings": {
+        "thermal_closure": "empirical"
+      }
+    },
+    {
+      "problem": 4,
+      "case": "conserved wet density, heat capacity only",
+      "time_h": 51.10657491068743,
+      "delta_vs_selected_s": -5.158047767821699,
+      "settings": {
+        "thermal_closure": "capacity"
+      }
+    },
+    {
+      "problem": 4,
+      "case": "conservative surface latent heat sensitivity",
+      "time_h": 56.50097443190654,
+      "delta_vs_selected_s": 19414.68022862097,
+      "settings": {
+        "latent_fraction": 1.0
+      }
+    }
+  ],
+  "analytic": [
+    {
+      "n": 80,
+      "max_temperature_error_C": 0.0009276181635442526
+    },
+    {
+      "n": 320,
+      "max_temperature_error_C": 5.796247424072476e-05
+    },
+    {
+      "n": 1280,
+      "max_temperature_error_C": 3.6065029505039092e-06
+    }
+  ],
+  "crossing": {
+    "3": {
+      "critical_s": 206888.54573007664,
+      "critical_h": 57.469040480576844,
+      "mean_C": 0.12430767241831735,
+      "surface_C": 0.052646942474856,
+      "mean_threshold_h": 36.020502837916396,
+      "premature_stop_h": 21.448537642660447,
+      "first_full_minute_s": 206940.0,
+      "max_C_first_full_minute": 0.14998501632923372
+    },
+    "4": {
+      "critical_s": 183989.33667338098,
+      "critical_h": 51.10814907593916,
+      "mean_C": 0.11840449864461029,
+      "surface_C": 0.05260749883973861,
+      "mean_threshold_h": 34.98927018641744,
+      "premature_stop_h": 16.11887888952172,
+      "first_full_minute_s": 184020.0,
+      "max_C_first_full_minute": 0.1499842583712593
+    }
+  },
+  "solver_comparison": [
+    {
+      "problem": 3,
+      "BDF_h": 57.46895825774776,
+      "Radau_h": 57.46895807795318,
+      "difference_s": -0.000647260487312451
+    },
+    {
+      "problem": 4,
+      "BDF_h": 51.108007701734046,
+      "Radau_h": 51.10800811640881,
+      "difference_s": 0.0014928291493561119
+    }
+  ],
+  "sealed_shrinkage": {
+    "radius_ratio": 0.5990000000000001,
+    "dry_density_ratio": 2.787060236732896,
+    "max_C_change": 0.0,
+    "max_T_change_C": 0.0,
+    "water_mass_relative_change": 0.0
+  }
+}

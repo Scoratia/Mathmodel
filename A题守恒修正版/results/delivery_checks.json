@@ -1,0 +1,51 @@
+{
+  "workbooks": [
+    {
+      "file": "result1.xlsx",
+      "cells_checked": 79244,
+      "blanks_outside_material": 0,
+      "sha256": "f93a5ed48a4d4a980bd310c741a81f1eac116db9e42598cec3f5c43131885ee0",
+      "status": "PASS"
+    },
+    {
+      "file": "result2.xlsx",
+      "cells_checked": 475244,
+      "blanks_outside_material": 0,
+      "sha256": "74bf5809a9cf448e36f6bd43eecf6831efc9394315b4818e49337898133ba237",
+      "status": "PASS"
+    },
+    {
+      "file": "result3.xlsx",
+      "cells_checked": 75900,
+      "blanks_outside_material": 0,
+      "sha256": "91b49593e3c3dd3730dc2232735eb9463a67ab74a7b6e0b8874c092114a65e97",
+      "status": "PASS"
+    },
+    {
+      "file": "result4.xlsx",
+      "cells_checked": 73632,
+      "blanks_outside_material": 23175,
+      "sha256": "39b15262054a78ce380e5c68376905aa94c287ca45b0d5f6e61b23a60cc39866",
+      "status": "PASS"
+    }
+  ],
+  "density_fields": {
+    "1": {
+      "initial_dry_mass_from_given_initial_density_kg": 0.07256636551953889,
+      "max_relative_mass_error_reconstructed_from_saved_fields": 1.1102230246251565e-15,
+      "status": "PASS"
+    },
+    "3": {
+      "initial_dry_mass_from_given_initial_density_kg": 0.08640707230887533,
+      "max_relative_mass_error_reconstructed_from_saved_fields": 4.440892098500626e-16,
+      "status": "PASS"
+    },
+    "4": {
+      "initial_dry_mass_from_given_initial_density_kg": 0.08756636424583382,
+      "max_relative_mass_error_reconstructed_from_saved_fields": 6.661338147750939e-16,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS",
+  "scope": "Saved-cell readback and conserved-density arithmetic; not experimental validation."
+}
