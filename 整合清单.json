@@ -1,0 +1,1079 @@
+{
+  "status": "PASS",
+  "scope": "Consolidated analytical documentation, existing computed artifacts, copied-file hashes and Python syntax; no claim of new physical validation.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 315,
+      "sha256": "10358f63b94ec76bff524ca9baa86011958f7a85d986f5b027898f9153426fde"
+    },
+    {
+      "path": "专题分析/参数敏感性、几何与停机分析.md",
+      "bytes": 20401,
+      "sha256": "e0be42025d0eff30ff3d8656dc12680bacb7581efa0c75132ff32d8f08ee6918"
+    },
+    {
+      "path": "专题分析/相变热、平衡含水率与露点分析.md",
+      "bytes": 11128,
+      "sha256": "a9e966809348a690844d8654cf0504c2c8015b6317c3dfc7f134b999212431bc"
+    },
+    {
+      "path": "专题分析/质量与显热守恒推导及验证.md",
+      "bytes": 13590,
+      "sha256": "e3ae8c9436cd3bed3d29c667a547eda19121e50831f04fefde9c212e6173b6a0"
+    },
+    {
+      "path": "专题分析/边界压力、密度解释与质量评价.md",
+      "bytes": 5098,
+      "sha256": "454c83a2ade8ffebb2fc030291f98cbc053836a5a8c80fda2b3afc7f7ef9063d"
+    },
+    {
+      "path": "成果导航.md",
+      "bytes": 1856,
+      "sha256": "0836af6816770d720af425bd7dfe93edf8196b1895dd6e7994ac45e3505b25d5"
+    },
+    {
+      "path": "最终分析说明.md",
+      "bytes": 25961,
+      "sha256": "4f4f536322aa7c4440536cdc48eaf296a326246e6d2a0ad4b741330264670e1f"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/build_excel.mjs",
+      "bytes": 2910,
+      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/check_insulated_drying.py",
+      "bytes": 876,
+      "sha256": "b1dc7d714164060e662a2c50053b9b20a37e76ce338a86d09c8dbf5455b357fa"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/conservative_model.py",
+      "bytes": 4883,
+      "sha256": "acbc2ad2b5c5f6b812f63f32e480efab8fe6da03221f63853c482d50cdc6c211"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/make_report.py",
+      "bytes": 18235,
+      "sha256": "e4894066328bc1980a6628a14bd6087919a28895d7ef268d20123d1ec334e614"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/reference_model.py",
+      "bytes": 7006,
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/run_conservation_study.py",
+      "bytes": 12664,
+      "sha256": "5e676ba5c1ecea7b27406dfff1f399386652eec5f2f64d814ebd45cc2626ffdf"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/code/verify_exports.py",
+      "bytes": 3157,
+      "sha256": "cd80d92f9a22a402ac874e61c792dcd6b20e051b1011c20382e7adf4d308fec2"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/inputs.json",
+      "bytes": 20074,
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/reference_baseline.json",
+      "bytes": 685349,
+      "sha256": "b44e32143472ee05b4b54b55ed1c7ba8031df1e685297dc0695f70610da28057"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/source_manifest.json",
+      "bytes": 257,
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/templates/result1.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/templates/result2.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/templates/result3.xlsx",
+      "bytes": 9345,
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/data/templates/result4.xlsx",
+      "bytes": 9351,
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/figures/前3小时温度对照.png",
+      "bytes": 76536,
+      "sha256": "9a4677e55f5cc60228b77e91922b8f6ee21a91921586be8dfd4963fe830bd652"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/figures/干物质与水分质量.png",
+      "bytes": 74789,
+      "sha256": "7bec7ce05bde8e0d9d4c3658fc96f1cb57a1ca9f604cb9d60f2842842dfbe3d0"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/figures/干物质守恒对照.png",
+      "bytes": 76967,
+      "sha256": "9ff9bef937f148040f6e83275f609166a43dc4df95219cd70b1d7e0b87ed371d"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/requirements.txt",
+      "bytes": 62,
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/result1.xlsx",
+      "bytes": 398392,
+      "sha256": "f93a5ed48a4d4a980bd310c741a81f1eac116db9e42598cec3f5c43131885ee0"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/result2.xlsx",
+      "bytes": 2722135,
+      "sha256": "74bf5809a9cf448e36f6bd43eecf6831efc9394315b4818e49337898133ba237"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/result3.xlsx",
+      "bytes": 341547,
+      "sha256": "91b49593e3c3dd3730dc2232735eb9463a67ab74a7b6e0b8874c092114a65e97"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/result4.xlsx",
+      "bytes": 328511,
+      "sha256": "39b15262054a78ce380e5c68376905aa94c287ca45b0d5f6e61b23a60cc39866"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/delivery_checks.json",
+      "bytes": 1704,
+      "sha256": "d0dcac7cc7d2f2b175bbf49da6c0fdd2e9ba8b4117acb0965206aea2d8c34776"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/insulated_drying_check.json",
+      "bytes": 244,
+      "sha256": "bfa48a367adc478ee740a59915e6188c4e4a1c08976897c060f73e4c7fb78a7c"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/mass_history_q1.json",
+      "bytes": 452,
+      "sha256": "70e7d13258a7477d8c8f0d0cb0e68d937763dc6ba3598179968add69226bb4f9"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/mass_history_q3.json",
+      "bytes": 9295,
+      "sha256": "897d5ec1e6af1941169e8637c5e591276b1a4f3fcaaf76c8954e6ac1bcd19553"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/mass_history_q4.json",
+      "bytes": 8754,
+      "sha256": "857b72687b349051eb7c5a1445284d9704e82f9761995050e109999f884e4b3a"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/numerical_checks.json",
+      "bytes": 311,
+      "sha256": "9579dbcf2d5749fa667bf06573cb279c05890001f32afc74efdea249fc825bbe"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/profiles_full_precision.npz",
+      "bytes": 33924106,
+      "sha256": "9bd3fbc88ebe460dadf7a303c5941f7d2a600e82fe1239c19e04d2b1c0628fbb"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/result1.json",
+      "bytes": 1223995,
+      "sha256": "84fe9181c2804f0dfe7ecf57f4f2cb161e8887b5ba19301d9d79fc0d22318812"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/result2.json",
+      "bytes": 7532225,
+      "sha256": "7d853b0c72f8aacf5093ab631852a55dc38d19b4a8d1d27bffe06097dd306781"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/result3.json",
+      "bytes": 1176450,
+      "sha256": "8f00479968bfe4b591596255603187868d38361dcb2734940cd93a4a87fc7417"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/result4.json",
+      "bytes": 1091933,
+      "sha256": "7fdc78b3c2db561527315ceb2ca5516e2db3d9e488d485b1ebc356d3bb438f2b"
+    },
+    {
+      "path": "计算与证据/守恒热湿模型/results/validation.json",
+      "bytes": 11324,
+      "sha256": "073b0350c7c635a5ec35040e56dafdec41e047276e888977abc3f7229bec1de7"
+    },
+    {
+      "path": "计算与证据/相变机理/code/check_first_question.py",
+      "bytes": 1240,
+      "sha256": "50b45a3c53f596933b5065cd76161877414a0ff0fec90a4c13e2c4c67c09acc8"
+    },
+    {
+      "path": "计算与证据/相变机理/code/conservative_model.py",
+      "bytes": 4883,
+      "sha256": "acbc2ad2b5c5f6b812f63f32e480efab8fe6da03221f63853c482d50cdc6c211"
+    },
+    {
+      "path": "计算与证据/相变机理/code/latent_model.py",
+      "bytes": 519,
+      "sha256": "2ea56348ce19e939938d5a0b1961430ef0e446ba55eafbd511b2047a7b928ff9"
+    },
+    {
+      "path": "计算与证据/相变机理/code/make_latent_report.py",
+      "bytes": 13924,
+      "sha256": "986063931d732d522e5c275ba5aac20490bfaa228a0ad83a52c0a7679ac7ac3e"
+    },
+    {
+      "path": "计算与证据/相变机理/code/reference_model.py",
+      "bytes": 7006,
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf"
+    },
+    {
+      "path": "计算与证据/相变机理/code/run_conservation_study.py",
+      "bytes": 12664,
+      "sha256": "5e676ba5c1ecea7b27406dfff1f399386652eec5f2f64d814ebd45cc2626ffdf"
+    },
+    {
+      "path": "计算与证据/相变机理/code/study_latent.py",
+      "bytes": 9660,
+      "sha256": "bba90bc4a9706b24b800c7b79f12932a2dd00d011763e4fa1019e2bd5eb17f9e"
+    },
+    {
+      "path": "计算与证据/相变机理/code/water_thermo.py",
+      "bytes": 2373,
+      "sha256": "d2fcf5a79604c7800f80f8c0ff6dbc747446b47c32342bc5f56ab00a7ec54581"
+    },
+    {
+      "path": "计算与证据/相变机理/data/inputs.json",
+      "bytes": 20074,
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+    },
+    {
+      "path": "计算与证据/相变机理/data/source_manifest.json",
+      "bytes": 257,
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+    },
+    {
+      "path": "计算与证据/相变机理/figures/相变热对烘干时长的影响.png",
+      "bytes": 58376,
+      "sha256": "db663484e20adce5b1f09cf40b22d42f529911681c86f4649ee5e81935bfcb3f"
+    },
+    {
+      "path": "计算与证据/相变机理/figures/蒸发降温与露点检查.png",
+      "bytes": 122356,
+      "sha256": "6e74089695197861a12156b3a2b9805f5d7ac89fd22dd9ce1fcdfc75e5969ea6"
+    },
+    {
+      "path": "计算与证据/相变机理/requirements.txt",
+      "bytes": 62,
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6"
+    },
+    {
+      "path": "计算与证据/相变机理/results/history_q3.json",
+      "bytes": 1105038,
+      "sha256": "a32b5ae8980db0f7edbb0ffd2bf4b515f67c07d4f0282be3ce3424f640a7ec18"
+    },
+    {
+      "path": "计算与证据/相变机理/results/history_q4.json",
+      "bytes": 1084401,
+      "sha256": "319de8daf6c103d6c2ee5d744ca01c24abb417bac5d59f23e17d5839ea2523d8"
+    },
+    {
+      "path": "计算与证据/相变机理/results/question1_comparison.json",
+      "bytes": 459,
+      "sha256": "f989c46a56be8126961e64ff852670e9cb23059f5606e9782bbc13828cc511f6"
+    },
+    {
+      "path": "计算与证据/相变机理/results/study.json",
+      "bytes": 15066,
+      "sha256": "4ea58957298719d5c87b0b27c4bca3e961a878860ee608761bce70b2b899281e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/build_excel.mjs",
+      "bytes": 2910,
+      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/check_geometry.py",
+      "bytes": 3199,
+      "sha256": "8f24734f518b8101cb55cf87f5df4391fe75990a4b84356dfaef1bef02170aed"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/make_figures.py",
+      "bytes": 6043,
+      "sha256": "d113a7e78b2ffba338d25e3668248afb0d75a807e0c55799a010e031879893b2"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/make_report.py",
+      "bytes": 20757,
+      "sha256": "39a3345b5ed59eadbf5b6a8b6a0bb8d33b5277d9679f79a5b00414fa5a510bd2"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/model.py",
+      "bytes": 7006,
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/run_study.py",
+      "bytes": 11585,
+      "sha256": "4d1b8379338444a742dc9396f05e12370cd006f8984aa86b053370c4af6cfe50"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/code/verify_deliverables.py",
+      "bytes": 3373,
+      "sha256": "2a60d467024a6a5172b76f62bdf8e88bdde7e51b051718de703a3780247f1cfc"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/inputs.json",
+      "bytes": 20074,
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/source_manifest.json",
+      "bytes": 257,
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/templates/result1.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/templates/result2.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/templates/result3.xlsx",
+      "bytes": 9345,
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/data/templates/result4.xlsx",
+      "bytes": 9351,
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/figures/01_输入与收缩.png",
+      "bytes": 142550,
+      "sha256": "11d8a07f88a830aafdc1dc8d3865285af36eff4debdfa8cdecb5150a9c96393e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/figures/02_热湿时空分布.png",
+      "bytes": 207440,
+      "sha256": "2f9d33a9bbe23af9debe8a6e7b11149ff808b2cea077a9b1a4a880fc3d98a6f5"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/figures/03_达标与提前停机风险.png",
+      "bytes": 153276,
+      "sha256": "08c8d9b02dde2c6077171a620f1641499e55054264b22f68475f2b7ca994437e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/figures/04_参数敏感性.png",
+      "bytes": 76220,
+      "sha256": "66bc42219773f37e34f38ff0480403cc37d1179c2a4fbabd53f49fd10e179d9e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/figures/05_收敛与空间剖面.png",
+      "bytes": 165723,
+      "sha256": "a09197d95a0fa6ca18b9ee6a567e0a7ea1b4bf50ef38bc5810d59861631d23ed"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/requirements.txt",
+      "bytes": 62,
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/result1.xlsx",
+      "bytes": 398609,
+      "sha256": "6d53c18c087f9cd0b093e15e064b4b38db5fc0cffe98c48fdc452c6bdef3230a"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/result2.xlsx",
+      "bytes": 2732404,
+      "sha256": "dadf7168a65738e7b8ff1dcaa51577d8d8aa3c1ebc416be3535de87663478460"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/result3.xlsx",
+      "bytes": 341457,
+      "sha256": "1f822c234026f776705d532dc7078dea294b12d7d611b317e9f7dad40529d876"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/result4.xlsx",
+      "bytes": 328458,
+      "sha256": "095b018a91a9cf75b20d651729fcc39d850f8ae5a898aa9aa31543b6a59a2ea8"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/delivery_checks.json",
+      "bytes": 1128,
+      "sha256": "aef15422760b6397da0b8c76545c8650507a04628a7c5b5b33aa8628d5df0d1e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/geometry_validation.json",
+      "bytes": 1025,
+      "sha256": "54396d038d63ad27d77e260c7dd34c81df9c504b129721093b6f9a3cb2d225df"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/profiles_full_precision.npz",
+      "bytes": 19449779,
+      "sha256": "95d1eadd9e5c1cb252fde86b266debed193e1970eca99d4f6d610eee1b3d548b"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/result1.json",
+      "bytes": 1223904,
+      "sha256": "0b1db2cc7370191f7e04b70a222330fa5d95ea63de1036b325b391765bb66fe3"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/result2.json",
+      "bytes": 7532100,
+      "sha256": "9bb8c4c52311c7df172070a3c050350f8f809d74dfb4a2743f7b5c19bc49440e"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/result3.json",
+      "bytes": 1176523,
+      "sha256": "f8add6ed09546e81f1c5dcb7d189e7f51103e1116b0b710bbdc8ce7d0611443d"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/result4.json",
+      "bytes": 1091515,
+      "sha256": "30fea1a65c4eb8d2e5bb4b193621044d5d6c526690596d9388146890f512b455"
+    },
+    {
+      "path": "计算与证据/经验闭合对照/results/validation.json",
+      "bytes": 21099,
+      "sha256": "0321713f67c59358a33c3576df1c1c4f41d1fb4e6c7bb2396370551485f666cd"
+    },
+    {
+      "path": "计算与证据/边界压力/audit_model.py",
+      "bytes": 3708,
+      "sha256": "bad2aa7fdffd48db348ccfeef5014db67e43855924c82208e20d3332eb4f853c"
+    },
+    {
+      "path": "计算与证据/边界压力/审查计算证据.json",
+      "bytes": 4184,
+      "sha256": "24d8f1c5a3614d9d558d7fdd5d102cef625a0be31d08dd0e0c9b8dbc4779370f"
+    },
+    {
+      "path": "题目与附件/A题.pdf",
+      "bytes": 553320,
+      "sha256": "052d8014bff5727c019b72e44fdffaf5c145ce04050dd938baaf3527db331736"
+    },
+    {
+      "path": "题目与附件/附件/~$附件1.xlsx",
+      "bytes": 165,
+      "sha256": "b8d6a783eaf1ba633d23f113a27f47899801a3cf63c6f3dda43dcc185d0cfd89"
+    },
+    {
+      "path": "题目与附件/附件/~$附件2.xlsx",
+      "bytes": 165,
+      "sha256": "b8d6a783eaf1ba633d23f113a27f47899801a3cf63c6f3dda43dcc185d0cfd89"
+    },
+    {
+      "path": "题目与附件/附件/附件1.xlsx",
+      "bytes": 16586,
+      "sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7"
+    },
+    {
+      "path": "题目与附件/附件/附件2.xlsx",
+      "bytes": 11485,
+      "sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af"
+    },
+    {
+      "path": "题目与附件/附件/附件3/result1.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "题目与附件/附件/附件3/result2.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "题目与附件/附件/附件3/result3.xlsx",
+      "bytes": 9345,
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859"
+    },
+    {
+      "path": "题目与附件/附件/附件3/result4.xlsx",
+      "bytes": 9351,
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac"
+    }
+  ],
+  "source_mapping": {
+    "A题建模成果": "经验闭合对照",
+    "A题守恒修正版": "守恒热湿模型",
+    "A题相变热分析": "相变机理",
+    "A题第二轮审查": "边界压力"
+  },
+  "copied_sources": [
+    {
+      "file": "计算与证据/经验闭合对照/requirements.txt",
+      "source": "outputs/A题建模成果/requirements.txt",
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6",
+      "bytes": 62
+    },
+    {
+      "file": "计算与证据/经验闭合对照/result1.xlsx",
+      "source": "outputs/A题建模成果/result1.xlsx",
+      "sha256": "6d53c18c087f9cd0b093e15e064b4b38db5fc0cffe98c48fdc452c6bdef3230a",
+      "bytes": 398609
+    },
+    {
+      "file": "计算与证据/经验闭合对照/result2.xlsx",
+      "source": "outputs/A题建模成果/result2.xlsx",
+      "sha256": "dadf7168a65738e7b8ff1dcaa51577d8d8aa3c1ebc416be3535de87663478460",
+      "bytes": 2732404
+    },
+    {
+      "file": "计算与证据/经验闭合对照/result3.xlsx",
+      "source": "outputs/A题建模成果/result3.xlsx",
+      "sha256": "1f822c234026f776705d532dc7078dea294b12d7d611b317e9f7dad40529d876",
+      "bytes": 341457
+    },
+    {
+      "file": "计算与证据/经验闭合对照/result4.xlsx",
+      "source": "outputs/A题建模成果/result4.xlsx",
+      "sha256": "095b018a91a9cf75b20d651729fcc39d850f8ae5a898aa9aa31543b6a59a2ea8",
+      "bytes": 328458
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/build_excel.mjs",
+      "source": "outputs/A题建模成果/code/build_excel.mjs",
+      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c",
+      "bytes": 2910
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/check_geometry.py",
+      "source": "outputs/A题建模成果/code/check_geometry.py",
+      "sha256": "8f24734f518b8101cb55cf87f5df4391fe75990a4b84356dfaef1bef02170aed",
+      "bytes": 3199
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/make_figures.py",
+      "source": "outputs/A题建模成果/code/make_figures.py",
+      "sha256": "d113a7e78b2ffba338d25e3668248afb0d75a807e0c55799a010e031879893b2",
+      "bytes": 6043
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/make_report.py",
+      "source": "outputs/A题建模成果/code/make_report.py",
+      "sha256": "39a3345b5ed59eadbf5b6a8b6a0bb8d33b5277d9679f79a5b00414fa5a510bd2",
+      "bytes": 20757
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/model.py",
+      "source": "outputs/A题建模成果/code/model.py",
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf",
+      "bytes": 7006
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/run_study.py",
+      "source": "outputs/A题建模成果/code/run_study.py",
+      "sha256": "4d1b8379338444a742dc9396f05e12370cd006f8984aa86b053370c4af6cfe50",
+      "bytes": 11585
+    },
+    {
+      "file": "计算与证据/经验闭合对照/code/verify_deliverables.py",
+      "source": "outputs/A题建模成果/code/verify_deliverables.py",
+      "sha256": "2a60d467024a6a5172b76f62bdf8e88bdde7e51b051718de703a3780247f1cfc",
+      "bytes": 3373
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/inputs.json",
+      "source": "outputs/A题建模成果/data/inputs.json",
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98",
+      "bytes": 20074
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/source_manifest.json",
+      "source": "outputs/A题建模成果/data/source_manifest.json",
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a",
+      "bytes": 257
+    },
+    {
+      "file": "计算与证据/经验闭合对照/figures/01_输入与收缩.png",
+      "source": "outputs/A题建模成果/figures/01_输入与收缩.png",
+      "sha256": "11d8a07f88a830aafdc1dc8d3865285af36eff4debdfa8cdecb5150a9c96393e",
+      "bytes": 142550
+    },
+    {
+      "file": "计算与证据/经验闭合对照/figures/02_热湿时空分布.png",
+      "source": "outputs/A题建模成果/figures/02_热湿时空分布.png",
+      "sha256": "2f9d33a9bbe23af9debe8a6e7b11149ff808b2cea077a9b1a4a880fc3d98a6f5",
+      "bytes": 207440
+    },
+    {
+      "file": "计算与证据/经验闭合对照/figures/03_达标与提前停机风险.png",
+      "source": "outputs/A题建模成果/figures/03_达标与提前停机风险.png",
+      "sha256": "08c8d9b02dde2c6077171a620f1641499e55054264b22f68475f2b7ca994437e",
+      "bytes": 153276
+    },
+    {
+      "file": "计算与证据/经验闭合对照/figures/04_参数敏感性.png",
+      "source": "outputs/A题建模成果/figures/04_参数敏感性.png",
+      "sha256": "66bc42219773f37e34f38ff0480403cc37d1179c2a4fbabd53f49fd10e179d9e",
+      "bytes": 76220
+    },
+    {
+      "file": "计算与证据/经验闭合对照/figures/05_收敛与空间剖面.png",
+      "source": "outputs/A题建模成果/figures/05_收敛与空间剖面.png",
+      "sha256": "a09197d95a0fa6ca18b9ee6a567e0a7ea1b4bf50ef38bc5810d59861631d23ed",
+      "bytes": 165723
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/delivery_checks.json",
+      "source": "outputs/A题建模成果/results/delivery_checks.json",
+      "sha256": "aef15422760b6397da0b8c76545c8650507a04628a7c5b5b33aa8628d5df0d1e",
+      "bytes": 1128
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/geometry_validation.json",
+      "source": "outputs/A题建模成果/results/geometry_validation.json",
+      "sha256": "54396d038d63ad27d77e260c7dd34c81df9c504b129721093b6f9a3cb2d225df",
+      "bytes": 1025
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/profiles_full_precision.npz",
+      "source": "outputs/A题建模成果/results/profiles_full_precision.npz",
+      "sha256": "95d1eadd9e5c1cb252fde86b266debed193e1970eca99d4f6d610eee1b3d548b",
+      "bytes": 19449779
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/result1.json",
+      "source": "outputs/A题建模成果/results/result1.json",
+      "sha256": "0b1db2cc7370191f7e04b70a222330fa5d95ea63de1036b325b391765bb66fe3",
+      "bytes": 1223904
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/result2.json",
+      "source": "outputs/A题建模成果/results/result2.json",
+      "sha256": "9bb8c4c52311c7df172070a3c050350f8f809d74dfb4a2743f7b5c19bc49440e",
+      "bytes": 7532100
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/result3.json",
+      "source": "outputs/A题建模成果/results/result3.json",
+      "sha256": "f8add6ed09546e81f1c5dcb7d189e7f51103e1116b0b710bbdc8ce7d0611443d",
+      "bytes": 1176523
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/result4.json",
+      "source": "outputs/A题建模成果/results/result4.json",
+      "sha256": "30fea1a65c4eb8d2e5bb4b193621044d5d6c526690596d9388146890f512b455",
+      "bytes": 1091515
+    },
+    {
+      "file": "计算与证据/经验闭合对照/results/validation.json",
+      "source": "outputs/A题建模成果/results/validation.json",
+      "sha256": "0321713f67c59358a33c3576df1c1c4f41d1fb4e6c7bb2396370551485f666cd",
+      "bytes": 21099
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/templates/result1.xlsx",
+      "source": "outputs/A题建模成果/data/templates/result1.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/templates/result2.xlsx",
+      "source": "outputs/A题建模成果/data/templates/result2.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/templates/result3.xlsx",
+      "source": "outputs/A题建模成果/data/templates/result3.xlsx",
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859",
+      "bytes": 9345
+    },
+    {
+      "file": "计算与证据/经验闭合对照/data/templates/result4.xlsx",
+      "source": "outputs/A题建模成果/data/templates/result4.xlsx",
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac",
+      "bytes": 9351
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/requirements.txt",
+      "source": "outputs/A题守恒修正版/requirements.txt",
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6",
+      "bytes": 62
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/result1.xlsx",
+      "source": "outputs/A题守恒修正版/result1.xlsx",
+      "sha256": "f93a5ed48a4d4a980bd310c741a81f1eac116db9e42598cec3f5c43131885ee0",
+      "bytes": 398392
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/result2.xlsx",
+      "source": "outputs/A题守恒修正版/result2.xlsx",
+      "sha256": "74bf5809a9cf448e36f6bd43eecf6831efc9394315b4818e49337898133ba237",
+      "bytes": 2722135
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/result3.xlsx",
+      "source": "outputs/A题守恒修正版/result3.xlsx",
+      "sha256": "91b49593e3c3dd3730dc2232735eb9463a67ab74a7b6e0b8874c092114a65e97",
+      "bytes": 341547
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/result4.xlsx",
+      "source": "outputs/A题守恒修正版/result4.xlsx",
+      "sha256": "39b15262054a78ce380e5c68376905aa94c287ca45b0d5f6e61b23a60cc39866",
+      "bytes": 328511
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/build_excel.mjs",
+      "source": "outputs/A题守恒修正版/code/build_excel.mjs",
+      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c",
+      "bytes": 2910
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/check_insulated_drying.py",
+      "source": "outputs/A题守恒修正版/code/check_insulated_drying.py",
+      "sha256": "b1dc7d714164060e662a2c50053b9b20a37e76ce338a86d09c8dbf5455b357fa",
+      "bytes": 876
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/conservative_model.py",
+      "source": "outputs/A题守恒修正版/code/conservative_model.py",
+      "sha256": "acbc2ad2b5c5f6b812f63f32e480efab8fe6da03221f63853c482d50cdc6c211",
+      "bytes": 4883
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/make_report.py",
+      "source": "outputs/A题守恒修正版/code/make_report.py",
+      "sha256": "e4894066328bc1980a6628a14bd6087919a28895d7ef268d20123d1ec334e614",
+      "bytes": 18235
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/reference_model.py",
+      "source": "outputs/A题守恒修正版/code/reference_model.py",
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf",
+      "bytes": 7006
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/run_conservation_study.py",
+      "source": "outputs/A题守恒修正版/code/run_conservation_study.py",
+      "sha256": "5e676ba5c1ecea7b27406dfff1f399386652eec5f2f64d814ebd45cc2626ffdf",
+      "bytes": 12664
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/code/verify_exports.py",
+      "source": "outputs/A题守恒修正版/code/verify_exports.py",
+      "sha256": "cd80d92f9a22a402ac874e61c792dcd6b20e051b1011c20382e7adf4d308fec2",
+      "bytes": 3157
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/inputs.json",
+      "source": "outputs/A题守恒修正版/data/inputs.json",
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98",
+      "bytes": 20074
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/reference_baseline.json",
+      "source": "outputs/A题守恒修正版/data/reference_baseline.json",
+      "sha256": "b44e32143472ee05b4b54b55ed1c7ba8031df1e685297dc0695f70610da28057",
+      "bytes": 685349
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/source_manifest.json",
+      "source": "outputs/A题守恒修正版/data/source_manifest.json",
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a",
+      "bytes": 257
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/figures/前3小时温度对照.png",
+      "source": "outputs/A题守恒修正版/figures/前3小时温度对照.png",
+      "sha256": "9a4677e55f5cc60228b77e91922b8f6ee21a91921586be8dfd4963fe830bd652",
+      "bytes": 76536
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/figures/干物质与水分质量.png",
+      "source": "outputs/A题守恒修正版/figures/干物质与水分质量.png",
+      "sha256": "7bec7ce05bde8e0d9d4c3658fc96f1cb57a1ca9f604cb9d60f2842842dfbe3d0",
+      "bytes": 74789
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/figures/干物质守恒对照.png",
+      "source": "outputs/A题守恒修正版/figures/干物质守恒对照.png",
+      "sha256": "9ff9bef937f148040f6e83275f609166a43dc4df95219cd70b1d7e0b87ed371d",
+      "bytes": 76967
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/delivery_checks.json",
+      "source": "outputs/A题守恒修正版/results/delivery_checks.json",
+      "sha256": "d0dcac7cc7d2f2b175bbf49da6c0fdd2e9ba8b4117acb0965206aea2d8c34776",
+      "bytes": 1704
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/insulated_drying_check.json",
+      "source": "outputs/A题守恒修正版/results/insulated_drying_check.json",
+      "sha256": "bfa48a367adc478ee740a59915e6188c4e4a1c08976897c060f73e4c7fb78a7c",
+      "bytes": 244
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/mass_history_q1.json",
+      "source": "outputs/A题守恒修正版/results/mass_history_q1.json",
+      "sha256": "70e7d13258a7477d8c8f0d0cb0e68d937763dc6ba3598179968add69226bb4f9",
+      "bytes": 452
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/mass_history_q3.json",
+      "source": "outputs/A题守恒修正版/results/mass_history_q3.json",
+      "sha256": "897d5ec1e6af1941169e8637c5e591276b1a4f3fcaaf76c8954e6ac1bcd19553",
+      "bytes": 9295
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/mass_history_q4.json",
+      "source": "outputs/A题守恒修正版/results/mass_history_q4.json",
+      "sha256": "857b72687b349051eb7c5a1445284d9704e82f9761995050e109999f884e4b3a",
+      "bytes": 8754
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/numerical_checks.json",
+      "source": "outputs/A题守恒修正版/results/numerical_checks.json",
+      "sha256": "9579dbcf2d5749fa667bf06573cb279c05890001f32afc74efdea249fc825bbe",
+      "bytes": 311
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/profiles_full_precision.npz",
+      "source": "outputs/A题守恒修正版/results/profiles_full_precision.npz",
+      "sha256": "9bd3fbc88ebe460dadf7a303c5941f7d2a600e82fe1239c19e04d2b1c0628fbb",
+      "bytes": 33924106
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/result1.json",
+      "source": "outputs/A题守恒修正版/results/result1.json",
+      "sha256": "84fe9181c2804f0dfe7ecf57f4f2cb161e8887b5ba19301d9d79fc0d22318812",
+      "bytes": 1223995
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/result2.json",
+      "source": "outputs/A题守恒修正版/results/result2.json",
+      "sha256": "7d853b0c72f8aacf5093ab631852a55dc38d19b4a8d1d27bffe06097dd306781",
+      "bytes": 7532225
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/result3.json",
+      "source": "outputs/A题守恒修正版/results/result3.json",
+      "sha256": "8f00479968bfe4b591596255603187868d38361dcb2734940cd93a4a87fc7417",
+      "bytes": 1176450
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/result4.json",
+      "source": "outputs/A题守恒修正版/results/result4.json",
+      "sha256": "7fdc78b3c2db561527315ceb2ca5516e2db3d9e488d485b1ebc356d3bb438f2b",
+      "bytes": 1091933
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/results/validation.json",
+      "source": "outputs/A题守恒修正版/results/validation.json",
+      "sha256": "073b0350c7c635a5ec35040e56dafdec41e047276e888977abc3f7229bec1de7",
+      "bytes": 11324
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/templates/result1.xlsx",
+      "source": "outputs/A题守恒修正版/data/templates/result1.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/templates/result2.xlsx",
+      "source": "outputs/A题守恒修正版/data/templates/result2.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/templates/result3.xlsx",
+      "source": "outputs/A题守恒修正版/data/templates/result3.xlsx",
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859",
+      "bytes": 9345
+    },
+    {
+      "file": "计算与证据/守恒热湿模型/data/templates/result4.xlsx",
+      "source": "outputs/A题守恒修正版/data/templates/result4.xlsx",
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac",
+      "bytes": 9351
+    },
+    {
+      "file": "计算与证据/相变机理/requirements.txt",
+      "source": "outputs/A题相变热分析/requirements.txt",
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6",
+      "bytes": 62
+    },
+    {
+      "file": "计算与证据/相变机理/code/check_first_question.py",
+      "source": "outputs/A题相变热分析/code/check_first_question.py",
+      "sha256": "50b45a3c53f596933b5065cd76161877414a0ff0fec90a4c13e2c4c67c09acc8",
+      "bytes": 1240
+    },
+    {
+      "file": "计算与证据/相变机理/code/conservative_model.py",
+      "source": "outputs/A题相变热分析/code/conservative_model.py",
+      "sha256": "acbc2ad2b5c5f6b812f63f32e480efab8fe6da03221f63853c482d50cdc6c211",
+      "bytes": 4883
+    },
+    {
+      "file": "计算与证据/相变机理/code/latent_model.py",
+      "source": "outputs/A题相变热分析/code/latent_model.py",
+      "sha256": "2ea56348ce19e939938d5a0b1961430ef0e446ba55eafbd511b2047a7b928ff9",
+      "bytes": 519
+    },
+    {
+      "file": "计算与证据/相变机理/code/make_latent_report.py",
+      "source": "outputs/A题相变热分析/code/make_latent_report.py",
+      "sha256": "986063931d732d522e5c275ba5aac20490bfaa228a0ad83a52c0a7679ac7ac3e",
+      "bytes": 13924
+    },
+    {
+      "file": "计算与证据/相变机理/code/reference_model.py",
+      "source": "outputs/A题相变热分析/code/reference_model.py",
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf",
+      "bytes": 7006
+    },
+    {
+      "file": "计算与证据/相变机理/code/run_conservation_study.py",
+      "source": "outputs/A题相变热分析/code/run_conservation_study.py",
+      "sha256": "5e676ba5c1ecea7b27406dfff1f399386652eec5f2f64d814ebd45cc2626ffdf",
+      "bytes": 12664
+    },
+    {
+      "file": "计算与证据/相变机理/code/study_latent.py",
+      "source": "outputs/A题相变热分析/code/study_latent.py",
+      "sha256": "bba90bc4a9706b24b800c7b79f12932a2dd00d011763e4fa1019e2bd5eb17f9e",
+      "bytes": 9660
+    },
+    {
+      "file": "计算与证据/相变机理/code/water_thermo.py",
+      "source": "outputs/A题相变热分析/code/water_thermo.py",
+      "sha256": "d2fcf5a79604c7800f80f8c0ff6dbc747446b47c32342bc5f56ab00a7ec54581",
+      "bytes": 2373
+    },
+    {
+      "file": "计算与证据/相变机理/data/inputs.json",
+      "source": "outputs/A题相变热分析/data/inputs.json",
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98",
+      "bytes": 20074
+    },
+    {
+      "file": "计算与证据/相变机理/data/source_manifest.json",
+      "source": "outputs/A题相变热分析/data/source_manifest.json",
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a",
+      "bytes": 257
+    },
+    {
+      "file": "计算与证据/相变机理/figures/相变热对烘干时长的影响.png",
+      "source": "outputs/A题相变热分析/figures/相变热对烘干时长的影响.png",
+      "sha256": "db663484e20adce5b1f09cf40b22d42f529911681c86f4649ee5e81935bfcb3f",
+      "bytes": 58376
+    },
+    {
+      "file": "计算与证据/相变机理/figures/蒸发降温与露点检查.png",
+      "source": "outputs/A题相变热分析/figures/蒸发降温与露点检查.png",
+      "sha256": "6e74089695197861a12156b3a2b9805f5d7ac89fd22dd9ce1fcdfc75e5969ea6",
+      "bytes": 122356
+    },
+    {
+      "file": "计算与证据/相变机理/results/history_q3.json",
+      "source": "outputs/A题相变热分析/results/history_q3.json",
+      "sha256": "a32b5ae8980db0f7edbb0ffd2bf4b515f67c07d4f0282be3ce3424f640a7ec18",
+      "bytes": 1105038
+    },
+    {
+      "file": "计算与证据/相变机理/results/history_q4.json",
+      "source": "outputs/A题相变热分析/results/history_q4.json",
+      "sha256": "319de8daf6c103d6c2ee5d744ca01c24abb417bac5d59f23e17d5839ea2523d8",
+      "bytes": 1084401
+    },
+    {
+      "file": "计算与证据/相变机理/results/question1_comparison.json",
+      "source": "outputs/A题相变热分析/results/question1_comparison.json",
+      "sha256": "f989c46a56be8126961e64ff852670e9cb23059f5606e9782bbc13828cc511f6",
+      "bytes": 459
+    },
+    {
+      "file": "计算与证据/相变机理/results/study.json",
+      "source": "outputs/A题相变热分析/results/study.json",
+      "sha256": "4ea58957298719d5c87b0b27c4bca3e961a878860ee608761bce70b2b899281e",
+      "bytes": 15066
+    },
+    {
+      "file": "计算与证据/边界压力/audit_model.py",
+      "source": "outputs/A题第二轮审查/audit_model.py",
+      "sha256": "1faea0f901fe2b288901dee647e6f6ed4de5d99c9425fda555e40c912cbd816f",
+      "bytes": 3644
+    },
+    {
+      "file": "计算与证据/边界压力/审查计算证据.json",
+      "source": "outputs/A题第二轮审查/审查计算证据.json",
+      "sha256": "24d8f1c5a3614d9d558d7fdd5d102cef625a0be31d08dd0e0c9b8dbc4779370f",
+      "bytes": 4184
+    },
+    {
+      "file": "题目与附件/A题.pdf",
+      "source": "outputs/A题建模成果/A题/A题.pdf",
+      "sha256": "052d8014bff5727c019b72e44fdffaf5c145ce04050dd938baaf3527db331736",
+      "bytes": 553320
+    },
+    {
+      "file": "题目与附件/附件/~$附件1.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/~$附件1.xlsx",
+      "sha256": "b8d6a783eaf1ba633d23f113a27f47899801a3cf63c6f3dda43dcc185d0cfd89",
+      "bytes": 165
+    },
+    {
+      "file": "题目与附件/附件/~$附件2.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/~$附件2.xlsx",
+      "sha256": "b8d6a783eaf1ba633d23f113a27f47899801a3cf63c6f3dda43dcc185d0cfd89",
+      "bytes": 165
+    },
+    {
+      "file": "题目与附件/附件/附件1.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件1.xlsx",
+      "sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+      "bytes": 16586
+    },
+    {
+      "file": "题目与附件/附件/附件2.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件2.xlsx",
+      "sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af",
+      "bytes": 11485
+    },
+    {
+      "file": "题目与附件/附件/附件3/result1.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件3/result1.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "题目与附件/附件/附件3/result2.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件3/result2.xlsx",
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4",
+      "bytes": 10073
+    },
+    {
+      "file": "题目与附件/附件/附件3/result3.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件3/result3.xlsx",
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859",
+      "bytes": 9345
+    },
+    {
+      "file": "题目与附件/附件/附件3/result4.xlsx",
+      "source": "outputs/A题建模成果/A题/附件/附件3/result4.xlsx",
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac",
+      "bytes": 9351
+    },
+    {
+      "file": "最终分析说明.md",
+      "source": "work/最终分析说明.md",
+      "sha256": "4f4f536322aa7c4440536cdc48eaf296a326246e6d2a0ad4b741330264670e1f",
+      "bytes": 25961
+    }
+  ],
+  "path_adjustment": "边界压力/audit_model.py now imports the co-located 经验闭合对照 module; equations unchanged."
+}
