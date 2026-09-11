@@ -1,0 +1,10 @@
+{
+  "test": "adiabatic water loss, no explicit latent heat",
+  "water_loss_kg": 0.08838694032280059,
+  "max_T_change_C": 1.0658141036401503e-14,
+  "end_C_range": [
+    0.8169964360820515,
+    2.193330442584469
+  ],
+  "status": "PASS"
+}

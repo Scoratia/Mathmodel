@@ -1,0 +1,451 @@
+{
+  "thermophysical_verification": {
+    "source": "IAPWS SR1-86(1992), page 7, Table 1",
+    "checks": [
+      {
+        "T_K": 273.16,
+        "p_Pa": 611.6570697405119,
+        "rho_liquid": 999.789134651148,
+        "rho_vapor": 0.004854262596261376,
+        "latent_J_kg": 2500537.992720098,
+        "max_relative_difference_from_rounded_table": 5.348418452566506e-07
+      },
+      {
+        "T_K": 373.1243,
+        "p_Pa": 101325.01516961289,
+        "rho_liquid": 958.3652337840979,
+        "rho_vapor": 0.5975863185878784,
+        "latent_J_kg": 2256665.411891759,
+        "max_relative_difference_from_rounded_table": 0.00013068182574160758
+      },
+      {
+        "T_K": 647.096,
+        "p_Pa": 22064000.0,
+        "rho_liquid": 322.0,
+        "rho_vapor": 322.0,
+        "latent_J_kg": 0.0,
+        "max_relative_difference_from_rounded_table": 5.37798751492069e-05
+      }
+    ],
+    "latent_at_28C_J_kg": 2434757.974025403,
+    "latent_at_50C_J_kg": 2381999.6653685905,
+    "status": "PASS"
+  },
+  "cases": [
+    {
+      "problem": 3,
+      "fraction": 0.0,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 57.46895825774776,
+      "change_h": 0.0,
+      "change_pct": 0.0
+    },
+    {
+      "problem": 3,
+      "fraction": 0.25,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 58.16558566284653,
+      "change_h": 0.6966274050987704,
+      "change_pct": 1.2121803252016505
+    },
+    {
+      "problem": 3,
+      "fraction": 0.5,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 58.89744944079329,
+      "change_h": 1.4284911830455287,
+      "change_pct": 2.485674399453619
+    },
+    {
+      "problem": 3,
+      "fraction": 0.75,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 59.65493150745186,
+      "change_h": 2.1859732497041033,
+      "change_pct": 3.803746084799431
+    },
+    {
+      "problem": 3,
+      "fraction": 1.0,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 60.4298695164191,
+      "change_h": 2.960911258671347,
+      "change_pct": 5.15219232858144
+    },
+    {
+      "problem": 3,
+      "fraction": 1.0,
+      "law": "IAPWS saturation Lv(Ts)",
+      "time_h": 60.47597930176616,
+      "constant_same_grid_h": 60.4298695164191
+    },
+    {
+      "problem": 4,
+      "fraction": 0.0,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 51.108007701734046,
+      "change_h": 0.0,
+      "change_pct": 0.0
+    },
+    {
+      "problem": 4,
+      "fraction": 0.25,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 52.4352366211009,
+      "change_h": 1.32722891936685,
+      "change_pct": 2.5969099150030317
+    },
+    {
+      "problem": 4,
+      "fraction": 0.5,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 53.7809798860529,
+      "change_h": 2.672972184318852,
+      "change_pct": 5.2300457492264085
+    },
+    {
+      "problem": 4,
+      "fraction": 0.75,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 55.13799248746466,
+      "change_h": 4.029984785730615,
+      "change_pct": 7.885231624072642
+    },
+    {
+      "problem": 4,
+      "fraction": 1.0,
+      "law": "constant 2.38 MJ/kg",
+      "time_h": 56.50097443190654,
+      "change_h": 5.392966730172492,
+      "change_pct": 10.552097357513524
+    },
+    {
+      "problem": 4,
+      "fraction": 1.0,
+      "law": "IAPWS saturation Lv(Ts)",
+      "time_h": 56.569543592269845,
+      "constant_same_grid_h": 56.50097443190654
+    }
+  ],
+  "mesh": [
+    {
+      "problem": 3,
+      "n": 160,
+      "time_h": 60.4298695164191
+    },
+    {
+      "problem": 3,
+      "n": 320,
+      "time_h": 60.42997040889931,
+      "delta_time_s": 0.363212928728899,
+      "max_T_delta_C": 0.0012847087821903358,
+      "max_C_delta": 0.00013856020824709603
+    },
+    {
+      "problem": 3,
+      "n": 640,
+      "time_h": 60.42999543050852,
+      "delta_time_s": 0.09007779316743836,
+      "max_T_delta_C": 0.00039198275863583376,
+      "max_C_delta": 4.40487092698838e-05
+    },
+    {
+      "problem": 3,
+      "n": 1280,
+      "time_h": 60.43000161578065,
+      "delta_time_s": 0.02226697964943014,
+      "max_T_delta_C": 9.239685749662385e-05,
+      "max_C_delta": 1.0275056117059478e-05
+    },
+    {
+      "problem": 4,
+      "n": 160,
+      "time_h": 56.50097443190654
+    },
+    {
+      "problem": 4,
+      "n": 320,
+      "time_h": 56.50113557501021,
+      "delta_time_s": 0.580115173215745,
+      "max_T_delta_C": 0.0009384730615202841,
+      "max_C_delta": 0.0011569715805523906
+    },
+    {
+      "problem": 4,
+      "n": 640,
+      "time_h": 56.50117765585925,
+      "delta_time_s": 0.15149105654563755,
+      "max_T_delta_C": 0.0002698830348109027,
+      "max_C_delta": 0.0002798026635306705
+    },
+    {
+      "problem": 4,
+      "n": 1280,
+      "time_h": 56.501190001934674,
+      "delta_time_s": 0.04444587152102031,
+      "max_T_delta_C": 6.380633848834805e-05,
+      "max_C_delta": 6.940878864725164e-05
+    }
+  ],
+  "validation": {
+    "3": {
+      "energy": [
+        {
+          "step_s": 10.0,
+          "water_out_kg": 0.20959752285288286,
+          "convective_heat_input_J": 506988.16520458786,
+          "latent_energy_J": 498842.10438986146,
+          "outward_water_sensible_energy_J": 28980.586419154064,
+          "stored_sensible_energy_change_J": -20830.566734513992,
+          "energy_residual_J": 3.958869913698436,
+          "energy_relative_residual": 7.808604195131242e-06,
+          "water_residual_kg": 5.400158792634446e-07,
+          "water_relative_residual": 2.4508518502684643e-06
+        },
+        {
+          "step_s": 5.0,
+          "water_out_kg": 0.2095971737819366,
+          "convective_heat_input_J": 506989.70936660096,
+          "latent_energy_J": 498841.27360100695,
+          "outward_water_sensible_energy_J": 28980.402119368875,
+          "stored_sensible_energy_change_J": -20830.566734513992,
+          "energy_residual_J": 1.3996192608974525,
+          "energy_relative_residual": 2.7606462913143604e-06,
+          "water_residual_kg": 1.9094493300397808e-07,
+          "water_relative_residual": 8.66599965524137e-07
+        }
+      ],
+      "diagnostics": {
+        "surface_min_C": 10.9128471069375,
+        "surface_min_time_h": 0.2833333333333333,
+        "maximum_air_surface_temperature_gap_C": 29.529423679099793,
+        "gap_time_h": 0.6833333333333333,
+        "dry_mass_max_relative_error": 0.0,
+        "temperature_comparison": [
+          {
+            "time_h": 0.5,
+            "center_T_C": 12.22609882574273,
+            "surface_T_C": 12.471161513695138,
+            "baseline_center_T_C": 32.24475983358887,
+            "baseline_surface_T_C": 35.497800636187954,
+            "center_C": 2.5499999762142505,
+            "surface_C": 1.3397043837575715
+          },
+          {
+            "time_h": 1.0,
+            "center_T_C": 16.851735429028047,
+            "surface_T_C": 19.461826109407614,
+            "baseline_center_T_C": 40.60060115864975,
+            "baseline_surface_T_C": 43.19012783891293,
+            "center_C": 2.5499008184251615,
+            "surface_C": 1.1679476719894664
+          },
+          {
+            "time_h": 3.0,
+            "center_T_C": 31.163063175586622,
+            "surface_T_C": 31.74137726183434,
+            "baseline_center_T_C": 49.91240660330141,
+            "baseline_surface_T_C": 50.01063220486851,
+            "center_C": 2.2679626794868977,
+            "surface_C": 0.8882037042856883
+          },
+          {
+            "time_h": 4.0,
+            "center_T_C": 33.92621370830533,
+            "surface_T_C": 34.28935190708188,
+            "baseline_center_T_C": 50.011850385264296,
+            "baseline_surface_T_C": 50.00560884644351,
+            "center_C": 1.9565310171463999,
+            "surface_C": 0.7748395563852644
+          },
+          {
+            "time_h": 6.0,
+            "center_T_C": 38.25177743933478,
+            "surface_T_C": 38.49174437958456,
+            "baseline_center_T_C": 49.998934492905505,
+            "baseline_surface_T_C": 49.99893446266297,
+            "center_C": 1.4099085237392113,
+            "surface_C": 0.5835537684796581
+          },
+          {
+            "time_h": 12.0,
+            "center_T_C": 46.22437096730996,
+            "surface_T_C": 46.29177986350481,
+            "baseline_center_T_C": 49.998934426229454,
+            "baseline_surface_T_C": 49.99893442622948,
+            "center_C": 0.5917265627107174,
+            "surface_C": 0.22322956653937703
+          },
+          {
+            "time_h": 24.0,
+            "center_T_C": 49.53353767761737,
+            "surface_T_C": 49.53720750037537,
+            "baseline_center_T_C": 49.9989344262295,
+            "baseline_surface_T_C": 49.99893442622952,
+            "center_C": 0.26022788524933516,
+            "surface_C": 0.0718499252870226
+          }
+        ],
+        "conditional_evaporation_below_air_dewpoint_intervals_s": [
+          [
+            8.888599849091294,
+            25439.93052268868
+          ]
+        ],
+        "conditional_max_reverse_pressure_difference_Pa": 4292.25548314186,
+        "conditional_max_required_water_activity": 3.5425596214236257
+      }
+    },
+    "4": {
+      "energy": [
+        {
+          "step_s": 10.0,
+          "water_out_kg": 0.21292736810853724,
+          "convective_heat_input_J": 517078.5855541249,
+          "latent_energy_J": 506767.1360983162,
+          "outward_water_sensible_energy_J": 29721.268404878494,
+          "stored_sensible_energy_change_J": -19403.103230478962,
+          "energy_residual_J": 6.71571859082178,
+          "energy_relative_residual": 1.2987810322148443e-05,
+          "water_residual_kg": 1.2711252905805992e-06,
+          "water_relative_residual": 5.692602523848138e-06
+        },
+        {
+          "step_s": 5.0,
+          "water_out_kg": 0.21292654551514317,
+          "convective_heat_input_J": 517080.68986631755,
+          "latent_energy_J": 506765.1783260412,
+          "outward_water_sensible_energy_J": 29720.987092320418,
+          "stored_sensible_energy_change_J": -19403.103230478962,
+          "energy_residual_J": 2.3723215651298233,
+          "energy_relative_residual": 4.587913669224714e-06,
+          "water_residual_kg": 4.4853189651306025e-07,
+          "water_relative_residual": 2.0087034889773823e-06
+        }
+      ],
+      "diagnostics": {
+        "surface_min_C": 14.550745342689142,
+        "surface_min_time_h": 0.13333333333333333,
+        "maximum_air_surface_temperature_gap_C": 23.327232425312683,
+        "gap_time_h": 0.7333333333333333,
+        "dry_mass_max_relative_error": 2.220446049250313e-16,
+        "temperature_comparison": [
+          {
+            "time_h": 0.5,
+            "center_T_C": 18.534169439404636,
+            "surface_T_C": 18.75738980320651,
+            "baseline_center_T_C": 30.729472424754032,
+            "baseline_surface_T_C": 35.77159720174161,
+            "center_C": 2.55,
+            "surface_C": 0.8924471905160247
+          },
+          {
+            "time_h": 1.0,
+            "center_T_C": 21.136724766797307,
+            "surface_T_C": 24.696265531909823,
+            "baseline_center_T_C": 37.97631934334683,
+            "baseline_surface_T_C": 42.722488940673806,
+            "center_C": 2.55,
+            "surface_C": 0.7614823186440086
+          },
+          {
+            "time_h": 3.0,
+            "center_T_C": 31.24119837241476,
+            "surface_T_C": 31.986358079215282,
+            "baseline_center_T_C": 49.447775307195585,
+            "baseline_surface_T_C": 49.79921251587655,
+            "center_C": 2.5474258568045425,
+            "surface_C": 0.5433097995746339
+          },
+          {
+            "time_h": 4.0,
+            "center_T_C": 32.684299218573805,
+            "surface_T_C": 33.057019756945785,
+            "baseline_center_T_C": 49.91687875593895,
+            "baseline_surface_T_C": 49.96735868177034,
+            "center_C": 2.5168036607757363,
+            "surface_C": 0.47559551858576093
+          },
+          {
+            "time_h": 6.0,
+            "center_T_C": 34.56181753012141,
+            "surface_T_C": 34.80682222131947,
+            "baseline_center_T_C": 49.99769527682248,
+            "baseline_surface_T_C": 49.998334825638935,
+            "center_C": 2.2768351005207426,
+            "surface_C": 0.38185976760791573
+          },
+          {
+            "time_h": 12.0,
+            "center_T_C": 40.37976097295802,
+            "surface_T_C": 40.606130940371585,
+            "baseline_center_T_C": 49.99893442616952,
+            "baseline_surface_T_C": 49.99893442620119,
+            "center_C": 1.195603546414966,
+            "surface_C": 0.21780004167283162
+          },
+          {
+            "time_h": 24.0,
+            "center_T_C": 48.131184451307064,
+            "surface_T_C": 48.167989828893475,
+            "baseline_center_T_C": 49.9989344262295,
+            "baseline_surface_T_C": 49.99893442622951,
+            "center_C": 0.37581414307920075,
+            "surface_C": 0.08062848943929597
+          }
+        ],
+        "conditional_evaporation_below_air_dewpoint_intervals_s": [
+          [
+            5.154014149824075,
+            42421.34610523976
+          ]
+        ],
+        "conditional_max_reverse_pressure_difference_Pa": 3455.073022608634,
+        "conditional_max_required_water_activity": 2.396005095846137
+      }
+    }
+  },
+  "crossing": {
+    "3": {
+      "without_latent_h": 57.469040480576844,
+      "with_latent_h": 60.43000161578065,
+      "change_h": 2.960961135203801,
+      "change_pct": 5.152271745696768,
+      "critical_time_s": 217548.00581681033,
+      "first_full_minute_s": 217560.0
+    },
+    "4": {
+      "without_latent_h": 51.10814907593916,
+      "with_latent_h": 56.501190001934674,
+      "change_h": 5.393040925995511,
+      "change_pct": 10.552213342694628,
+      "critical_time_s": 203404.28400696482,
+      "first_full_minute_s": 203460.0
+    }
+  },
+  "solver": [
+    {
+      "problem": 3,
+      "BDF_h": 60.4298695164191,
+      "Radau_h": 60.42986956892478,
+      "difference_s": 0.00018902041483670473
+    },
+    {
+      "problem": 4,
+      "BDF_h": 56.50097443190654,
+      "Radau_h": 56.50097405636926,
+      "difference_s": -0.0013519342173822224
+    }
+  ],
+  "conditional_humidity_audit": {
+    "assumptions": "W is kg water vapor/kg dry air; total pressure=101325 Pa; ideal moist air",
+    "late_air_T_C": 49.99893442622951,
+    "late_air_W": 0.04998754098360656,
+    "late_air_RH": 0.610269346740217,
+    "late_air_dewpoint_C": 40.3847148224164,
+    "late_vapor_pressure_Pa": 7537.940613427603,
+    "initial_RH": 0.8195130750697075
+  },
+  "numerical_status": "PASS",
+  "physical_status": "Conditional effective-boundary model; inspect dew-point audit before engineering interpretation"
+}

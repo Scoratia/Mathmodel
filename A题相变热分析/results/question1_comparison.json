@@ -1,0 +1,12 @@
+{
+  "problem": 1,
+  "n": 1280,
+  "time_s": 1800,
+  "without_latent_center_T_C": 33.716778080189385,
+  "with_latent_center_T_C": 11.2204072139408,
+  "without_latent_surface_T_C": 36.97272227986813,
+  "with_latent_surface_T_C": 12.707877654357485,
+  "max_C_difference": 2.0791197474778755e-07,
+  "minimum_T_C": 9.752927690996405,
+  "interpretation": "D(C) independent of T in appendix 2; the moisture equation is unchanged by latent heat coupling."
+}
