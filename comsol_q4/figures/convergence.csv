@@ -1,7 +1,0 @@
-type,parameter,t_star_h,dev_vs_finest_s,dev_pct
-space,Nel=40,51.0937,40.6,0.02208
-space,Nel=160,51.1073,89.7,0.04875
-space,Nel=640,51.0824,0.0,0.00000
-time,rtol=1e-3,51.0108,-285.2,-0.15504
-time,rtol=1e-4,51.0978,28.3,0.01536
-time,rtol=1e-5,51.0900,0.0,0.00000
