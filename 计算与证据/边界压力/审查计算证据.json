@@ -1,0 +1,119 @@
+{
+  "description": "Conditional physical-closure audit; not a replacement solution or an award prediction.",
+  "stress_scenarios": [
+    {
+      "problem": 3,
+      "scenario": "boundary effective Ceq=0.10 after4h",
+      "settings": {
+        "tail_moist_shift": 0.050012459016393444
+      },
+      "critical_h": 61.17851057463469,
+      "change_h_vs_same_grid": 3.70379794134859,
+      "change_pct_vs_same_grid": 6.444221765805858,
+      "radius_extrapolation_needed": false,
+      "minimum_C_at4h": 0.8153419917871289,
+      "wall_s": 11.649016699986532
+    },
+    {
+      "problem": 3,
+      "scenario": "boundary effective Ceq=0.14 after4h",
+      "settings": {
+        "tail_moist_shift": 0.09001245901639346
+      },
+      "critical_h": 85.5356254763493,
+      "change_h_vs_same_grid": 28.060912843063193,
+      "change_pct_vs_same_grid": 48.823058972219904,
+      "radius_extrapolation_needed": false,
+      "minimum_C_at4h": 0.8153419917871289,
+      "wall_s": 13.059534900006838
+    },
+    {
+      "problem": 3,
+      "scenario": "joint D-10%, hm-20%, lateT-1C, lateC+0.01",
+      "settings": {
+        "d_scale": 0.9,
+        "hm": 6.4e-07,
+        "tail_temp_shift": -1.0,
+        "tail_moist_shift": 0.01
+      },
+      "critical_h": 67.15643162519487,
+      "change_h_vs_same_grid": 9.681718991908767,
+      "change_pct_vs_same_grid": 16.845180338146946,
+      "radius_extrapolation_needed": false,
+      "minimum_C_at4h": 0.974454303531451,
+      "wall_s": 13.13768769998569
+    },
+    {
+      "problem": 4,
+      "scenario": "boundary effective Ceq=0.10 after4h",
+      "settings": {
+        "tail_moist_shift": 0.050012459016393444
+      },
+      "critical_h": 55.051914850458374,
+      "change_h_vs_same_grid": 3.9627962384890196,
+      "change_pct_vs_same_grid": 7.756634575333221,
+      "radius_extrapolation_needed": false,
+      "minimum_C_at4h": 0.5763455680998721,
+      "wall_s": 14.062828299996909
+    },
+    {
+      "problem": 4,
+      "scenario": "boundary effective Ceq=0.14 after4h",
+      "settings": {
+        "tail_moist_shift": 0.09001245901639346
+      },
+      "critical_h": 75.62602922785501,
+      "change_h_vs_same_grid": 24.53691061588566,
+      "change_pct_vs_same_grid": 48.027664760176656,
+      "radius_extrapolation_needed": true,
+      "minimum_C_at4h": 0.5763455680998721,
+      "wall_s": 13.354898000019602
+    },
+    {
+      "problem": 4,
+      "scenario": "joint D-10%, hm-20%, lateT-1C, lateC+0.01",
+      "settings": {
+        "d_scale": 0.9,
+        "hm": 6.4e-07,
+        "tail_temp_shift": -1.0,
+        "tail_moist_shift": 0.01
+      },
+      "critical_h": 58.91465987522298,
+      "change_h_vs_same_grid": 7.825541263253626,
+      "change_pct_vs_same_grid": 15.317432509826512,
+      "radius_extrapolation_needed": false,
+      "minimum_C_at4h": 0.6775110532379185,
+      "wall_s": 13.58842399995774
+    }
+  ],
+  "density_interpretation": {
+    "3": {
+      "assumption": "rho(C) treated as actual wet bulk density, axial uniformity and L=0.25m",
+      "initial_dry_mass_kg": 0.08640707230887536,
+      "minimum_mass_ratio": 1.0,
+      "time_of_minimum_h": 0.0,
+      "end_mass_ratio": 2.1539608145158327,
+      "meaning": "Deviation from 1 diagnoses incompatibility of this literal density interpretation with dry-matter conservation."
+    },
+    "4": {
+      "assumption": "rho(C) treated as actual wet bulk density, axial uniformity and L=0.25m",
+      "initial_dry_mass_kg": 0.08756636424583386,
+      "minimum_mass_ratio": 0.7195434787510748,
+      "time_of_minimum_h": 7.2562,
+      "end_mass_ratio": 0.8903008454516014,
+      "meaning": "Deviation from 1 diagnoses incompatibility of this literal density interpretation with dry-matter conservation."
+    }
+  },
+  "published_precision": {
+    "3": {
+      "finest_grid_change_s": -0.12464886746602133,
+      "baseline_h": 57.47400912180338,
+      "latent_scenario_h": 62.830955485949524
+    },
+    "4": {
+      "finest_grid_change_s": -0.10895803157472983,
+      "baseline_h": 51.08851315438494,
+      "latent_scenario_h": 56.32260434220574
+    }
+  }
+}
