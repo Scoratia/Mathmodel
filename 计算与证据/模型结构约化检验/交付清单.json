@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "scope": "Conditional structural reduction, controlled latent-location experiments, explicit counterevidence and limitations. File integrity, syntax, figure inspection and conservation checks complete.",
+  "files": [
+    {
+      "path": "code/check_reduction_scales.py",
+      "bytes": 3404,
+      "sha256": "167a16c5fe855466d601f861572236679fe7337a6f512fbf3e4813b24b14d5cd"
+    },
+    {
+      "path": "code/conservative_model.py",
+      "bytes": 4883,
+      "sha256": "acbc2ad2b5c5f6b812f63f32e480efab8fe6da03221f63853c482d50cdc6c211"
+    },
+    {
+      "path": "code/finish_structure_checks.py",
+      "bytes": 1026,
+      "sha256": "75f01f4502855a2e0e5729ebf8174c189359296428b64c8474f4d509515ae1f2"
+    },
+    {
+      "path": "code/make_figures.py",
+      "bytes": 2591,
+      "sha256": "4da0c29a6f35529de8fe1f12852533ba1ecca516b3b9133a9b10fcc4b3d67c52"
+    },
+    {
+      "path": "code/make_report.py",
+      "bytes": 15407,
+      "sha256": "c1355ced7f961a70b8bc42d39312fed6703d42270435a1c259685b9733d3b993"
+    },
+    {
+      "path": "code/redistribution_model.py",
+      "bytes": 801,
+      "sha256": "b5956ac34bf5e8c610e704ff22e9ac670df7bff09f66dfd0e92e231a23db82ba"
+    },
+    {
+      "path": "code/reference_model.py",
+      "bytes": 7006,
+      "sha256": "2f1e87be822cb8c7dede73534ba2a5c9b6556196ee9b1a2afc556253935f85cf"
+    },
+    {
+      "path": "code/run_structure_test.py",
+      "bytes": 5315,
+      "sha256": "2c89156aeba5d812c77dbb50db9b695d697e2fd4f7bb0799648e73505b2ad36c"
+    },
+    {
+      "path": "code/water_thermo.py",
+      "bytes": 2373,
+      "sha256": "d2fcf5a79604c7800f80f8c0ff6dbc747446b47c32342bc5f56ab00a7ec54581"
+    },
+    {
+      "path": "data/inputs.json",
+      "bytes": 20074,
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+    },
+    {
+      "path": "data/source_manifest.json",
+      "bytes": 257,
+      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+    },
+    {
+      "path": "figures/01_相变位置敏感性.png",
+      "bytes": 150604,
+      "sha256": "f41ff7eafb0567e923ba40941056b1c16f17322e4100fea1fe035666e6caaa54"
+    },
+    {
+      "path": "figures/02_库存界限与参数一致性.png",
+      "bytes": 146858,
+      "sha256": "efe3bf4352284db1b7e524a30ab0ddb6e0dfc69291ef2f7f9814ff1737ec3a1e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6"
+    },
+    {
+      "path": "results/conclusions.json",
+      "bytes": 651,
+      "sha256": "19ea7170d0a52fe61e0f8a73eeeaca477e76a0d8d5e333ecb3a05f2005ab366d"
+    },
+    {
+      "path": "results/conservation_checks.json",
+      "bytes": 1124,
+      "sha256": "8eab44e0f261c22e7b14e886ab5384350a8bd3969129f185bcd57d6d09d375aa"
+    },
+    {
+      "path": "results/history_q3_eta0.25.json",
+      "bytes": 45045,
+      "sha256": "cfada92b868a0c0656c6b2e1e4f77f49973f6a5c6e035cb5f1aafb6a9972d101"
+    },
+    {
+      "path": "results/history_q3_eta0.5.json",
+      "bytes": 45082,
+      "sha256": "0ebadc4eb522415a122f5ca9ec012aa6326a8ab5a696282d399dbeaaeedd6395"
+    },
+    {
+      "path": "results/history_q3_eta0.75.json",
+      "bytes": 45084,
+      "sha256": "91fc18de4e66a74cc8b2f9bdaad310254b8fcf57da2164c30912ebff1046bc55"
+    },
+    {
+      "path": "results/history_q3_eta0.json",
+      "bytes": 45040,
+      "sha256": "a96841e3a3cbcea775144e76274c0e8656aef75d6b3c3986fcfe8e15184ee389"
+    },
+    {
+      "path": "results/history_q3_eta1.json",
+      "bytes": 45074,
+      "sha256": "d5b7066dd5ab14a3a5e3520a9f6b329a2b8a4988a1e6d9a79641170e7f35c1fd"
+    },
+    {
+      "path": "results/history_q4_eta0.25.json",
+      "bytes": 44710,
+      "sha256": "0bbb4c6fc0370b7bd3213cce5bb78de636c2f3ddeed0856e2895b53957e22c0a"
+    },
+    {
+      "path": "results/history_q4_eta0.5.json",
+      "bytes": 44712,
+      "sha256": "de7acedee5a32e9722f65da65070dc6c4dee2e35abe4152cda9a62175afff5aa"
+    },
+    {
+      "path": "results/history_q4_eta0.75.json",
+      "bytes": 44688,
+      "sha256": "32a3e63a018add7c785b3ceb42ffa4398db19fba163690711d55597955a683a5"
+    },
+    {
+      "path": "results/history_q4_eta0.json",
+      "bytes": 44665,
+      "sha256": "bfbe9c946d02755806e1ea9262e1dd040f4021199f041a5605e17710fc99c014"
+    },
+    {
+      "path": "results/history_q4_eta1.json",
+      "bytes": 44689,
+      "sha256": "da40dadd89e2919f133b4099362a3bbad952d0cd435552d30c954df9fbedd025"
+    },
+    {
+      "path": "results/reduction_scales.json",
+      "bytes": 20687,
+      "sha256": "76cc19000fb227679390e8c5793709d08e0b91dec224b32c624bc3b14b1720cc"
+    },
+    {
+      "path": "results/study.json",
+      "bytes": 7426,
+      "sha256": "f9e8a6bd8c472e77cf3c39d3182d41478e805787d47ecad034b835f8786ab445"
+    },
+    {
+      "path": "结构保留论证与敏感性检验.md",
+      "bytes": 14334,
+      "sha256": "6969e08393dda61fbe9a342c6b4a0efdfdaaa35e481334bfc786aad815cea6c4"
+    }
+  ]
+}
