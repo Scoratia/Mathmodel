@@ -1,0 +1,20 @@
+{
+  "release_date": "2026-09-12",
+  "run_id": "20260912_033943_gpu",
+  "model_scope": "Empirical heat-capacity closure; no explicit latent heat. Does not replace repository conservative/phase-change conclusions.",
+  "reported_cases": 107,
+  "matched_task2_pairs": 45,
+  "original_source_archive_sha256": "391f262fa8f9cdd731da012a65515584d87465dbe5a4755953958a29f3791c92",
+  "production_hashes_verified": true,
+  "publication_changes": [
+    "Removed personal absolute result paths from public documents/CSV/manifest; numbers unchanged",
+    "Added model-scope labels, experiment design, public reproduction instructions and descriptive matched-pair table",
+    "Added standard-library pair rebuilding source; not executed in this publication"
+  ],
+  "not_included": [
+    "Full per-case NPZ profiles",
+    "Personal SSH instructions or server entry scripts",
+    "Unfinished task3 results"
+  ],
+  "validation_scope": "Original remote CUDA validation; no new local Python execution, compilation, PDE solve or PDF render during publication"
+}

@@ -1,0 +1,34 @@
+{
+  "completed": true,
+  "case_count": 107,
+  "requested_count": 107,
+  "elapsed_wall_s": 2865.766015011817,
+  "python": "3.12.14",
+  "platform": "Linux-5.15.0-163-generic-x86_64-with-glibc2.35",
+  "configuration": {
+    "backend": "cupy",
+    "N": 320,
+    "rtol": 2e-05,
+    "atol": 1e-07,
+    "hashes": {
+      "physics.py": "489f07e2240e9ddbfb54c3de44d1c46fceef42aad48464c531ff1b937e6c3810",
+      "cases.py": "aab2657c79aba600701603ac5d6524a412b770957c42d599fce60658be3bb30c",
+      "cpu_solver.py": "b1eae777a451e85c1aeb860bc80c1cca9fb03be4bc4a9ae0fd2c7a30bdcb0557",
+      "data/inputs.npz": "c72e582c9cc491bec79787b8862f23cb7570cb4d1f02baa00380ce03a6175e1f",
+      "gpu_solver.py": "097788ac2dbcea768f2407afb02aa7edf4fe13e848e7d9d9f269e2a4c78c41f5"
+    }
+  },
+  "cuda_executed": true,
+  "arguments": {
+    "backend": "cupy",
+    "suite": "full",
+    "task": null,
+    "N": 320,
+    "workers": 2,
+    "batch_size": 16,
+    "rtol": 2e-05,
+    "atol": 1e-07,
+    "output": "results",
+    "limit": null
+  }
+}

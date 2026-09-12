@@ -4,33 +4,258 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 315,
-      "sha256": "10358f63b94ec76bff524ca9baa86011958f7a85d986f5b027898f9153426fde"
+      "bytes": 606,
+      "sha256": "d52c549c88c39c6a1c2c2362cf2c181654aaa475aa13afe0f02a3605fb234d85"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/.gitignore",
+      "bytes": 34,
+      "sha256": "fcdaf955e23b5266c1228b6b4d0898c6cc0591e9bcf35a9626707b4cdcefb860"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/CHECKSUMS.sha256",
+      "bytes": 3908,
+      "sha256": "6fb5a93f74ea906c3630afce9ee31299f1997a77ad90c5e919f3c26799c7604e"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/PROVENANCE.json",
+      "bytes": 1041,
+      "sha256": "28c068897385dc045bfcd7cebfbebd6cf41f9eac901260d5736cfd8fb710d50a"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/README.md",
+      "bytes": 2378,
+      "sha256": "6245d8782759919ae933d23a1d7e2776a3cb639e2e2dfdbda5a1606ff36483bc"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/boundary_normalization.csv",
+      "bytes": 4426,
+      "sha256": "e1cfa63b531217a343fe18a8c3a28882c0fc2b2a02463f50a8fc8e519cf58de1"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/case_results.csv",
+      "bytes": 49344,
+      "sha256": "f3b50b34c55d632b45c770405dd2c8e35266c64608ecaf1a8e119c62d3e1f09b"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/cases_requested.json",
+      "bytes": 31832,
+      "sha256": "e559dccfc853940cb66909f5c896216625f9e93bf5e6d13e5f5b868459acb29d"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/central_sensitivities.csv",
+      "bytes": 17051,
+      "sha256": "fb13402fd7500509bb568e0825cf55b04297c22222ddf525f30b11d460ec2cb6"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/geometry_controls.csv",
+      "bytes": 1888,
+      "sha256": "9c36612be29cb1fe8256705e68fe8572658ef6998a848f12345cd401ccd4b85c"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/integrity.csv",
+      "bytes": 21,
+      "sha256": "354bfb704ea22345340fc0195604e29e4aab6cbae0c159931efa0cefe3cd8f66"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/localization_contrasts.csv",
+      "bytes": 18170,
+      "sha256": "1e2df20ebb01cd072e75294a7884c9ba5df27fde2b8e7da21d1851be1f30882e"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/paired_changes.csv",
+      "bytes": 70810,
+      "sha256": "099c89a0d313dafc21ed6f949c081498748ede9dc4b94fa457bb0d22482aaf64"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/profile_summary.csv",
+      "bytes": 27756,
+      "sha256": "281d67e15e097082441dc0566f6d6ba1e9808bd59714167a7569f7d59c3258c4"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/run_summary.csv",
+      "bytes": 89,
+      "sha256": "0408f7d35c4487755dec15f139d6fc13c790400da6cbef5f0998e3c9e0e7dc10"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/summary.csv",
+      "bytes": 50301,
+      "sha256": "55777bc242a9609fd32edc7435f27c24046f7be0bb7bd4f325449923c7f33f7e"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/data/task2_q3_q4_matched.csv",
+      "bytes": 6587,
+      "sha256": "9b4b83dee123cd7092fe204c17327f89bbf961a415cec25f01bc7c25e9b382e5"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/figures/analysis_task1_deformation.png",
+      "bytes": 144105,
+      "sha256": "a549a392c0b2d00950b21560106079b7ae995a8e4d855f48b423dffdae5c9429"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/figures/analysis_task2_effects.png",
+      "bytes": 147305,
+      "sha256": "63a7fcc88ea17928a43cf499dd9fd00272c1c170651cb52e601092b4c3627d49"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/figures/analysis_task2_exposure.png",
+      "bytes": 85531,
+      "sha256": "5db467bf70fecec0a532b35ba964bc76961799802bab361612a67c181d58f385"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/rebuild_matched_pairs.py",
+      "bytes": 1672,
+      "sha256": "1780f40fc15d8822a37018f5d1dff8f0da973af334121e0f3b2def81f6cf62f4"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/analyze.py",
+      "bytes": 24378,
+      "sha256": "d0bff8dcc30665da7877cb2b5eb8ad0804cd6bf7e2e5ec039306f0c8dd424ab8"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/cases.py",
+      "bytes": 8535,
+      "sha256": "aab2657c79aba600701603ac5d6524a412b770957c42d599fce60658be3bb30c"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/cpu_solver.py",
+      "bytes": 5576,
+      "sha256": "b1eae777a451e85c1aeb860bc80c1cca9fb03be4bc4a9ae0fd2c7a30bdcb0557"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/data/inputs.npz",
+      "bytes": 9430,
+      "sha256": "c72e582c9cc491bec79787b8862f23cb7570cb4d1f02baa00380ce03a6175e1f"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/data/provenance.json",
+      "bytes": 510,
+      "sha256": "62f6b0430f1ded869452f669d983152809d7259af4bfd5a35ded7943a5239dd5"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/gpu_solver.py",
+      "bytes": 20056,
+      "sha256": "097788ac2dbcea768f2407afb02aa7edf4fe13e848e7d9d9f269e2a4c78c41f5"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/physics.py",
+      "bytes": 7413,
+      "sha256": "489f07e2240e9ddbfb54c3de44d1c46fceef42aad48464c531ff1b937e6c3810"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/reference/baseline_model.py",
+      "bytes": 27934,
+      "sha256": "33cbb6704df8c9042cae5c462cd043fb4c72153cff459617422a8f0370a1d937"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/requirements-cuda12.txt",
+      "bytes": 58,
+      "sha256": "2badbd45a065c98e80237b4655041c1f2d108d114742d1629fb8e6cd1ecfa474"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/requirements-cuda13.txt",
+      "bytes": 58,
+      "sha256": "61c5884b6f3a7f5c9cbadffccf15565c153366ed1cd3d87209dc48c6d7c2f92d"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/requirements-server-base.txt",
+      "bytes": 247,
+      "sha256": "6f2d5fcd0cb1da50be3df9471f6b8164b747c47b2510ae99c336848fddeeaa11"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/run.py",
+      "bytes": 9085,
+      "sha256": "4f9f439b03daab39c1ae5d454f789e48f48a41bfffad4056e7ac4a677852fb5c"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/validate_cpu.py",
+      "bytes": 4059,
+      "sha256": "720a34db45681ba30069e0716e8cc1537083c81f4f5ec48f31d25fdcfaba11d5"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/validate_gpu.py",
+      "bytes": 11370,
+      "sha256": "9d9abc0d5233b6d45a14d8b27de4756820184992ade1810dd81d307910d8b22a"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/source/validate_scenarios.py",
+      "bytes": 1726,
+      "sha256": "93f5199b6116cc1018640f9cf67368435be7f96bf6950905a6fa2e55f206a68d"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/verification/analysis_notes.json",
+      "bytes": 955,
+      "sha256": "c84d4ad1a6dc932ac66ca49ba002622b238adea17bed8acbb1ce9bcd22d1f48e"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/verification/environment_freeze.txt",
+      "bytes": 692,
+      "sha256": "fda7dba1f09ae8eb64108ecabfbece16648c42a287711b2ab65676b75eec9d41"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/verification/run_manifest.json",
+      "bytes": 1011,
+      "sha256": "11530f40a342aeb41611b80b960b4600353f34877e97cf4b0217f408463701f8"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/verification/validation_report.json",
+      "bytes": 11363,
+      "sha256": "3146bc147c5a5a8a8256b987af0f2690136b51a32e27b21430d471edccb7f3bd"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/复现与取用.md",
+      "bytes": 5470,
+      "sha256": "f74249d90e80a2a232735db0620874970eb81e778952448b2773d0c992c38d95"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/实验设计.md",
+      "bytes": 4331,
+      "sha256": "3d9f5a92e5b842e237b47ee7921efb67b2d1783773217eb8e1e8e8ec7abfffdc"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/论文素材.md",
+      "bytes": 11229,
+      "sha256": "048de1ea8c6914ca2d7a4996defc013acd72251364ecc56ac90b86f514487f76"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/论文素材.tex",
+      "bytes": 6153,
+      "sha256": "be5ee6cb1c830d160298ed15c69785bf691a567a7217e93aeb1e663a45d0e13a"
+    },
+    {
+      "path": "专题分析/GPU结构与扩散实验_20260912/详细数值解读.md",
+      "bytes": 6781,
+      "sha256": "af0f0d3c3f5019aef5581252583aad530190ea8bb564dd8d263a23c62257e3c6"
     },
     {
       "path": "专题分析/参数敏感性、几何与停机分析.md",
-      "bytes": 20401,
-      "sha256": "e0be42025d0eff30ff3d8656dc12680bacb7581efa0c75132ff32d8f08ee6918"
+      "bytes": 20078,
+      "sha256": "22ad74530904ba9c2084dc6508e8ef71372256fa05ec5266d22b49506d3d3f86"
     },
     {
       "path": "专题分析/相变热、平衡含水率与露点分析.md",
-      "bytes": 11128,
-      "sha256": "a9e966809348a690844d8654cf0504c2c8015b6317c3dfc7f134b999212431bc"
+      "bytes": 10971,
+      "sha256": "da43f92c41734d75682469cd53d7342f851c4aea4361fc7bffceb622ef811934"
     },
     {
       "path": "专题分析/质量与显热守恒推导及验证.md",
-      "bytes": 13590,
-      "sha256": "e3ae8c9436cd3bed3d29c667a547eda19121e50831f04fefde9c212e6173b6a0"
+      "bytes": 13421,
+      "sha256": "1a50ae655f67277b4a63e9dbab708fcf806a194d3423f5baf4742bb1e35fe673"
     },
     {
       "path": "专题分析/边界压力、密度解释与质量评价.md",
-      "bytes": 5098,
-      "sha256": "454c83a2ade8ffebb2fc030291f98cbc053836a5a8c80fda2b3afc7f7ef9063d"
+      "bytes": 5047,
+      "sha256": "16ff5ae9c0c8a179719abd019303b535f711e603a4c0240ce8b14a8579f219f9"
     },
     {
       "path": "成果导航.md",
-      "bytes": 1856,
-      "sha256": "0836af6816770d720af425bd7dfe93edf8196b1895dd6e7994ac45e3505b25d5"
+      "bytes": 2303,
+      "sha256": "2f4facf715773c7a1ed02159167f4561a4986cf3d44fa7faa67a56b46308d160"
+    },
+    {
+      "path": "支撑材料/AI工具使用详情.pdf",
+      "bytes": 36701,
+      "sha256": "9dd053d96bab1c7f6fc722eccb574140d1f03ce394e05a940e743665dee72234"
     },
     {
       "path": "最终分析说明.md",
@@ -39,8 +264,8 @@
     },
     {
       "path": "计算与证据/守恒热湿模型/code/build_excel.mjs",
-      "bytes": 2910,
-      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c"
+      "bytes": 2909,
+      "sha256": "7bf07c1a56d33857d9fd7165b945b6d37c47ed3c1de34c2708986ccfa0cd3c40"
     },
     {
       "path": "计算与证据/守恒热湿模型/code/check_insulated_drying.py",
@@ -74,18 +299,18 @@
     },
     {
       "path": "计算与证据/守恒热湿模型/data/inputs.json",
-      "bytes": 20074,
-      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+      "bytes": 18284,
+      "sha256": "851775207fcda7e8e06116de87316df3150b97d12920b7d6292791f04f1199e1"
     },
     {
       "path": "计算与证据/守恒热湿模型/data/reference_baseline.json",
-      "bytes": 685349,
-      "sha256": "b44e32143472ee05b4b54b55ed1c7ba8031df1e685297dc0695f70610da28057"
+      "bytes": 629294,
+      "sha256": "99edd7ff70983f23658d790a4db01c9d8a60a96dd756bfe5e4d985f7164fc957"
     },
     {
       "path": "计算与证据/守恒热湿模型/data/source_manifest.json",
-      "bytes": 257,
-      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+      "bytes": 248,
+      "sha256": "e9517e123cd8c09dfd7725536c73a8fd7ea2024fb61691a36569fb14d83a240f"
     },
     {
       "path": "计算与证据/守恒热湿模型/data/templates/result1.xlsx",
@@ -149,33 +374,33 @@
     },
     {
       "path": "计算与证据/守恒热湿模型/results/delivery_checks.json",
-      "bytes": 1704,
-      "sha256": "d0dcac7cc7d2f2b175bbf49da6c0fdd2e9ba8b4117acb0965206aea2d8c34776"
+      "bytes": 1654,
+      "sha256": "990d5ebbf1903d4efadb11836aebc2228c9936591cf67f3594e2c5abcd204cda"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/insulated_drying_check.json",
-      "bytes": 244,
-      "sha256": "bfa48a367adc478ee740a59915e6188c4e4a1c08976897c060f73e4c7fb78a7c"
+      "bytes": 235,
+      "sha256": "c703b2f49c917e5d9755fe8e760f2d4e9bec9d599bc11469a57275d1a7c47dd7"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/mass_history_q1.json",
-      "bytes": 452,
-      "sha256": "70e7d13258a7477d8c8f0d0cb0e68d937763dc6ba3598179968add69226bb4f9"
+      "bytes": 425,
+      "sha256": "264bda0099e815d4103e1ea319a35cc91f81cda7db8e62b636974827f097679e"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/mass_history_q3.json",
-      "bytes": 9295,
-      "sha256": "897d5ec1e6af1941169e8637c5e591276b1a4f3fcaaf76c8954e6ac1bcd19553"
+      "bytes": 8812,
+      "sha256": "df8b41195edba9067af70dbf782246816104c267baa37038d93de4e98b028082"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/mass_history_q4.json",
-      "bytes": 8754,
-      "sha256": "857b72687b349051eb7c5a1445284d9704e82f9761995050e109999f884e4b3a"
+      "bytes": 8319,
+      "sha256": "414a137207969a0145501929a9642f0bf0fce6ba336936935051477118463485"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/numerical_checks.json",
-      "bytes": 311,
-      "sha256": "9579dbcf2d5749fa667bf06573cb279c05890001f32afc74efdea249fc825bbe"
+      "bytes": 303,
+      "sha256": "8e3dcbbc6483c4e478e0cfb40f8dcf6b966f9f1dd5166b2a517ba5123a066b8b"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/profiles_full_precision.npz",
@@ -184,28 +409,28 @@
     },
     {
       "path": "计算与证据/守恒热湿模型/results/result1.json",
-      "bytes": 1223995,
-      "sha256": "84fe9181c2804f0dfe7ecf57f4f2cb161e8887b5ba19301d9d79fc0d22318812"
+      "bytes": 1137542,
+      "sha256": "944016b56dd6b708bae5cb25081f87ce2d7c02a45fb2d7daddc343591436690f"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/result2.json",
-      "bytes": 7532225,
-      "sha256": "7d853b0c72f8aacf5093ab631852a55dc38d19b4a8d1d27bffe06097dd306781"
+      "bytes": 7013772,
+      "sha256": "4f7463b8cda9f5f40953e84cd5d8933c05278b9774d1f5f4cae722c5216b548c"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/result3.json",
-      "bytes": 1176450,
-      "sha256": "8f00479968bfe4b591596255603187868d38361dcb2734940cd93a4a87fc7417"
+      "bytes": 1093647,
+      "sha256": "40ca584f83b008cc40991d97a3a4747c53d0542a29868ccccd6df342d2044c11"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/result4.json",
-      "bytes": 1091933,
-      "sha256": "7fdc78b3c2db561527315ceb2ca5516e2db3d9e488d485b1ebc356d3bb438f2b"
+      "bytes": 1012162,
+      "sha256": "6a548bdf7e862a2e683f9e12d1bb0a1ef212f9500d029346055d981347787059"
     },
     {
       "path": "计算与证据/守恒热湿模型/results/validation.json",
-      "bytes": 11324,
-      "sha256": "073b0350c7c635a5ec35040e56dafdec41e047276e888977abc3f7229bec1de7"
+      "bytes": 10968,
+      "sha256": "edc59baf51138320fd78f6c5ab0227a7ad1f38476c8af9b0fcdb4156865693c4"
     },
     {
       "path": "计算与证据/相变机理/code/check_first_question.py",
@@ -249,13 +474,13 @@
     },
     {
       "path": "计算与证据/相变机理/data/inputs.json",
-      "bytes": 20074,
-      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+      "bytes": 18284,
+      "sha256": "851775207fcda7e8e06116de87316df3150b97d12920b7d6292791f04f1199e1"
     },
     {
       "path": "计算与证据/相变机理/data/source_manifest.json",
-      "bytes": 257,
-      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+      "bytes": 248,
+      "sha256": "e9517e123cd8c09dfd7725536c73a8fd7ea2024fb61691a36569fb14d83a240f"
     },
     {
       "path": "计算与证据/相变机理/figures/相变热对烘干时长的影响.png",
@@ -274,28 +499,28 @@
     },
     {
       "path": "计算与证据/相变机理/results/history_q3.json",
-      "bytes": 1105038,
-      "sha256": "a32b5ae8980db0f7edbb0ffd2bf4b515f67c07d4f0282be3ce3424f640a7ec18"
+      "bytes": 1054751,
+      "sha256": "7e4029ef09ba65bd3a7044dcaf5cbccf946241bdbb490d6801b3c91c895b75bf"
     },
     {
       "path": "计算与证据/相变机理/results/history_q4.json",
-      "bytes": 1084401,
-      "sha256": "319de8daf6c103d6c2ee5d744ca01c24abb417bac5d59f23e17d5839ea2523d8"
+      "bytes": 1037169,
+      "sha256": "63b8cd6174ca6abced8c34489c814f80849b6ee468fdf52d9ca3024737d0e57c"
     },
     {
       "path": "计算与证据/相变机理/results/question1_comparison.json",
-      "bytes": 459,
-      "sha256": "f989c46a56be8126961e64ff852670e9cb23059f5606e9782bbc13828cc511f6"
+      "bytes": 448,
+      "sha256": "c173bac56c655b2545cf32671fbe33a9d65b0de3430ec65ad5eb78515eef1b22"
     },
     {
       "path": "计算与证据/相变机理/results/study.json",
-      "bytes": 15066,
-      "sha256": "4ea58957298719d5c87b0b27c4bca3e961a878860ee608761bce70b2b899281e"
+      "bytes": 14616,
+      "sha256": "ec120bd77a329763907a5b8e0dcd3917ee7cca7cd3e4d7a6d37ed31693e0b871"
     },
     {
       "path": "计算与证据/经验闭合对照/code/build_excel.mjs",
-      "bytes": 2910,
-      "sha256": "5cc7d47979a91970d07188401b690ceb753c51aef10bd46750af783d1c884c2c"
+      "bytes": 2909,
+      "sha256": "7bf07c1a56d33857d9fd7165b945b6d37c47ed3c1de34c2708986ccfa0cd3c40"
     },
     {
       "path": "计算与证据/经验闭合对照/code/check_geometry.py",
@@ -304,8 +529,8 @@
     },
     {
       "path": "计算与证据/经验闭合对照/code/make_figures.py",
-      "bytes": 6043,
-      "sha256": "d113a7e78b2ffba338d25e3668248afb0d75a807e0c55799a010e031879893b2"
+      "bytes": 6042,
+      "sha256": "2d133166df0217c3d93a25b21f6f9efb6b815c5846a072eac2b25adf5d3667c8"
     },
     {
       "path": "计算与证据/经验闭合对照/code/make_report.py",
@@ -329,13 +554,13 @@
     },
     {
       "path": "计算与证据/经验闭合对照/data/inputs.json",
-      "bytes": 20074,
-      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+      "bytes": 18284,
+      "sha256": "851775207fcda7e8e06116de87316df3150b97d12920b7d6292791f04f1199e1"
     },
     {
       "path": "计算与证据/经验闭合对照/data/source_manifest.json",
-      "bytes": 257,
-      "sha256": "3061dc7d329c3d545feed202f112eae4a1f9d128f9415f8a63fa7e3fec49154a"
+      "bytes": 248,
+      "sha256": "e9517e123cd8c09dfd7725536c73a8fd7ea2024fb61691a36569fb14d83a240f"
     },
     {
       "path": "计算与证据/经验闭合对照/data/templates/result1.xlsx",
@@ -409,13 +634,13 @@
     },
     {
       "path": "计算与证据/经验闭合对照/results/delivery_checks.json",
-      "bytes": 1128,
-      "sha256": "aef15422760b6397da0b8c76545c8650507a04628a7c5b5b33aa8628d5df0d1e"
+      "bytes": 1094,
+      "sha256": "32cf84ca9de5a489c81ba08e750be4ab8ce41f871e9482640b0a1c3c52bd9713"
     },
     {
       "path": "计算与证据/经验闭合对照/results/geometry_validation.json",
-      "bytes": 1025,
-      "sha256": "54396d038d63ad27d77e260c7dd34c81df9c504b129721093b6f9a3cb2d225df"
+      "bytes": 990,
+      "sha256": "5cc90d15eb35ed003a5a31a3f3d4f1512cce4de4f30018715d2bdebeeb819590"
     },
     {
       "path": "计算与证据/经验闭合对照/results/profiles_full_precision.npz",
@@ -424,38 +649,63 @@
     },
     {
       "path": "计算与证据/经验闭合对照/results/result1.json",
-      "bytes": 1223904,
-      "sha256": "0b1db2cc7370191f7e04b70a222330fa5d95ea63de1036b325b391765bb66fe3"
+      "bytes": 1137451,
+      "sha256": "70c2f1d7753224c13912ae50dc1b3dde07e36588a9f152794e6bc16f314b6f47"
     },
     {
       "path": "计算与证据/经验闭合对照/results/result2.json",
-      "bytes": 7532100,
-      "sha256": "9bb8c4c52311c7df172070a3c050350f8f809d74dfb4a2743f7b5c19bc49440e"
+      "bytes": 7013647,
+      "sha256": "dddf2cb829fee886ddceb569adf371b7d76516b6f69a8f7a60eba73a0a97be42"
     },
     {
       "path": "计算与证据/经验闭合对照/results/result3.json",
-      "bytes": 1176523,
-      "sha256": "f8add6ed09546e81f1c5dcb7d189e7f51103e1116b0b710bbdc8ce7d0611443d"
+      "bytes": 1093720,
+      "sha256": "2f11a9cdfaa59caf6409b42bbe33fe4c2688341c44d7a2f09b9506ba665b21a4"
     },
     {
       "path": "计算与证据/经验闭合对照/results/result4.json",
-      "bytes": 1091515,
-      "sha256": "30fea1a65c4eb8d2e5bb4b193621044d5d6c526690596d9388146890f512b455"
+      "bytes": 1011770,
+      "sha256": "9ca21abe7d4d884cfe0da42db094f8d133de29123193a9ffb563d73ff2d7d685"
     },
     {
       "path": "计算与证据/经验闭合对照/results/validation.json",
-      "bytes": 21099,
-      "sha256": "0321713f67c59358a33c3576df1c1c4f41d1fb4e6c7bb2396370551485f666cd"
+      "bytes": 20240,
+      "sha256": "2006a315022ca4eb76ca459ad978bc3fe2722172fd7fd3f5852197ab9a1e006e"
     },
     {
       "path": "计算与证据/边界压力/audit_model.py",
-      "bytes": 3708,
-      "sha256": "bad2aa7fdffd48db348ccfeef5014db67e43855924c82208e20d3332eb4f853c"
+      "bytes": 3646,
+      "sha256": "a74225b58035d31dddb8d3d919872445c4ca8419187087033bb3d36adf1cc0e3"
     },
     {
       "path": "计算与证据/边界压力/审查计算证据.json",
-      "bytes": 4184,
-      "sha256": "24d8f1c5a3614d9d558d7fdd5d102cef625a0be31d08dd0e0c9b8dbc4779370f"
+      "bytes": 4066,
+      "sha256": "1d1039c803fa248e4db2c54fb86ef63a315a85342ea2eec1d436e3c065ec876c"
+    },
+    {
+      "path": "论文/论文.pdf",
+      "bytes": 2554823,
+      "sha256": "2ed85dffa2fe0d6c8ad46a7c4cafce5689aa085df0ed66fb90ff84d44766daf4"
+    },
+    {
+      "path": "附件3/result1.xlsx",
+      "bytes": 403948,
+      "sha256": "05989ceab77880637fa563a542bf88a437f94bb23599cd7177db399d21e98cc9"
+    },
+    {
+      "path": "附件3/result2.xlsx",
+      "bytes": 2510130,
+      "sha256": "734f510b1830509feb8cccbc9e5f41666566cdc61e6b957281cc6ae87219a735"
+    },
+    {
+      "path": "附件3/result3.xlsx",
+      "bytes": 380262,
+      "sha256": "c1b80aafcd9dc9aef39115a8a1a9bbb06a5cfb00897a9b407f50d7cdd0e426e2"
+    },
+    {
+      "path": "附件3/result4.xlsx",
+      "bytes": 355246,
+      "sha256": "3dc0b24c461aabfe37c40e3264a8d77617c130ee5d9a5ed161bd2a1fb333bb52"
     },
     {
       "path": "题目与附件/A题.pdf",
@@ -1075,5 +1325,10 @@
       "bytes": 25961
     }
   ],
-  "path_adjustment": "边界压力/audit_model.py now imports the co-located 经验闭合对照 module; equations unchanged."
+  "path_adjustment": "边界压力/audit_model.py now imports the co-located 经验闭合对照 module; equations unchanged.",
+  "gpu_supplement_publication": {
+    "date": "2026-09-12",
+    "scope": "专题分析/GPU结构与扩散实验_20260912",
+    "checks": "File hashes, source provenance and document links; no local Python/model execution"
+  }
 }
