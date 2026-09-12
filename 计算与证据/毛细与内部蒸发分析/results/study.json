@@ -1,0 +1,1659 @@
+{
+  "status": "PASS",
+  "scope": "Uncalibrated Q3 fixed geometry, separate liquid and vapor, true-humidity interpretation.",
+  "cases": {
+    "neither": {
+      "parameters": {
+        "n": 80,
+        "permeability": 0.0,
+        "evaporation_rate": 0.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 120.0,
+      "threshold_reached": false,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.545295484803553,
+          "max_total_C": 2.550004006798083,
+          "center_T_C": 31.74938464473378,
+          "surface_cell_T_C": 34.712334145256754,
+          "water_lost_kg": 0.00040650338475756165,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 2.722674068852203e-07,
+          "vapor_out_kg_s": -2.822371183324522e-10,
+          "surface_liquid_evaporation_fraction": 1.001037693042508
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.534217581234319,
+          "max_total_C": 2.5500077651134476,
+          "center_T_C": 39.00037497329566,
+          "surface_cell_T_C": 41.123177806074196,
+          "water_lost_kg": 0.0013637125994951371,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 7.868850971213888e-07,
+          "vapor_out_kg_s": 2.573724632660395e-11,
+          "surface_liquid_evaporation_fraction": 0.9999672933130381
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.489437332798523,
+          "max_total_C": 2.5500099678226347,
+          "center_T_C": 49.774219013103846,
+          "surface_cell_T_C": 49.843013760805,
+          "water_lost_kg": 0.005233042764096335,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 1.4174422550027929e-08,
+          "vapor_out_kg_s": 5.948664692225861e-11,
+          "surface_liquid_evaporation_fraction": 0.9958207793727527
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 2.489146162883272,
+          "max_total_C": 2.5500099957372244,
+          "center_T_C": 49.99893429886343,
+          "surface_cell_T_C": 49.99893433958284,
+          "water_lost_kg": 0.005258201904017601,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.311577178132723e-15,
+          "vapor_out_kg_s": 8.053523398627186e-20,
+          "surface_liquid_evaporation_fraction": 0.9999848380226415
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 2.4891461627617155,
+          "max_total_C": 2.550009995737216,
+          "center_T_C": 49.99893442622951,
+          "surface_cell_T_C": 49.9989344262295,
+          "water_lost_kg": 0.005258201914520949,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": -7.74330608662365e-22,
+          "vapor_out_kg_s": -9.256923460001782e-22,
+          "surface_liquid_evaporation_fraction": 0.45548244306858243
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 2.4891461627617155,
+          "max_total_C": 2.550009995737216,
+          "center_T_C": 49.99893442622951,
+          "surface_cell_T_C": 49.99893442622951,
+          "water_lost_kg": 0.005258201914520949,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": -3.2263775360931845e-23,
+          "vapor_out_kg_s": 0.0,
+          "surface_liquid_evaporation_fraction": 1.0
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 2.4891461627617155,
+          "max_total_C": 2.550009995737216,
+          "center_T_C": 49.99893442622951,
+          "surface_cell_T_C": 49.99893442622951,
+          "water_lost_kg": 0.005258201914520949,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": -3.2263775360931845e-23,
+          "vapor_out_kg_s": 0.0,
+          "surface_liquid_evaporation_fraction": 1.0
+        },
+        "120.000000": {
+          "time_h": 120,
+          "mean_total_C": 2.4891461627617155,
+          "max_total_C": 2.550009995737216,
+          "center_T_C": 49.99893442622951,
+          "surface_cell_T_C": 49.99893442622951,
+          "water_lost_kg": 0.005258201914520949,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": -3.2263775360931845e-23,
+          "vapor_out_kg_s": 0.0,
+          "surface_liquid_evaporation_fraction": 1.0
+        }
+      },
+      "ranges": {
+        "min_T_C": 27.80415384232806,
+        "min_liquid_C": 0.10000000000000002,
+        "min_gas_porosity": 0.11528382894578881,
+        "max_vapor_pressure_fraction_of_total": 0.07475210797345258
+      },
+      "audit": {
+        "integrated": [
+          {
+            "step_s": 120.0,
+            "water_residual_kg": 1.3869070751744428e-07,
+            "water_relative_residual": 6.294451518681117e-07,
+            "energy_residual_J": 147.23551687801773,
+            "energy_relative_residual": 0.0041627166644668916,
+            "net_internal_evaporation_kg": 0.0,
+            "surface_liquid_evaporation_kg": 0.005260321311732153,
+            "water_out_kg": 0.0052583406052284665,
+            "convective_heat_in_J": 35370.05488142533,
+            "water_enthalpy_out_J": 13568.525931365015
+          },
+          {
+            "step_s": 60.0,
+            "water_residual_kg": 3.596595203030767e-07,
+            "water_relative_residual": 1.6323079276923284e-06,
+            "energy_residual_J": 53.68337380204321,
+            "energy_relative_residual": 0.001513735702256681,
+            "net_internal_evaporation_kg": 0.0,
+            "surface_liquid_evaporation_kg": 0.005260118235655432,
+            "water_out_kg": 0.005258561574041252,
+            "convective_heat_in_J": 35464.16572061549,
+            "water_enthalpy_out_J": 13569.084627479206
+          }
+        ],
+        "instantaneous_water_residual_kg_s": 1.0587911840678754e-22,
+        "instantaneous_energy_residual_W": 4.440892098500626e-16
+      }
+    },
+    "capillary": {
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 0.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 120.0,
+      "threshold_reached": false,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.5451524690251808,
+          "max_total_C": 2.5498438124971625,
+          "center_T_C": 31.738242859076305,
+          "surface_cell_T_C": 34.68920056819376,
+          "water_lost_kg": 0.00041886095946069846,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 2.890937978754278e-07,
+          "vapor_out_kg_s": -2.790482871933871e-10,
+          "surface_liquid_evaporation_fraction": 1.000966184336469
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.53268810303393,
+          "max_total_C": 2.549541357873389,
+          "center_T_C": 38.88533985616747,
+          "surface_cell_T_C": 40.89892390408083,
+          "water_lost_kg": 0.0014958703329509826,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 9.435110234109427e-07,
+          "vapor_out_kg_s": 3.741695657920382e-12,
+          "surface_liquid_evaporation_fraction": 0.9999960343008967
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.3622478344108933,
+          "max_total_C": 2.5492380418955363,
+          "center_T_C": 45.74077099262551,
+          "surface_cell_T_C": 45.774846500664644,
+          "water_lost_kg": 0.01622311494820583,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 1.3733759838807466e-06,
+          "vapor_out_kg_s": 6.665955644460471e-12,
+          "surface_liquid_evaporation_fraction": 0.9999951463230984
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.9771607391785793,
+          "max_total_C": 2.5120675776312567,
+          "center_T_C": 46.969712716275545,
+          "surface_cell_T_C": 46.99224329043976,
+          "water_lost_kg": 0.04949736343115915,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 9.755542955313528e-07,
+          "vapor_out_kg_s": -4.9306665684153914e-11,
+          "surface_liquid_evaporation_fraction": 1.0000505447601467
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.5876451573474328,
+          "max_total_C": 2.260956354652012,
+          "center_T_C": 48.08885179727365,
+          "surface_cell_T_C": 48.099959663116636,
+          "water_lost_kg": 0.08315426447587668,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 6.190207553599015e-07,
+          "vapor_out_kg_s": -3.112569334485697e-11,
+          "surface_liquid_evaporation_fraction": 1.0000502846765973
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 1.1478267702656884,
+          "max_total_C": 1.7295868610745762,
+          "center_T_C": 49.03532732391587,
+          "surface_cell_T_C": 49.038504819784436,
+          "water_lost_kg": 0.12115768365122188,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 3.1468939404375046e-07,
+          "vapor_out_kg_s": -1.5798762773672046e-11,
+          "surface_liquid_evaporation_fraction": 1.0000502068270443
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.901664925895813,
+          "max_total_C": 1.3742165290306017,
+          "center_T_C": 49.41043467420368,
+          "surface_cell_T_C": 49.41175287323079,
+          "water_lost_kg": 0.1424278079373758,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 1.9277248381439323e-07,
+          "vapor_out_kg_s": -9.6787765119215e-12,
+          "surface_liquid_evaporation_fraction": 1.000050210809653
+        },
+        "120.000000": {
+          "time_h": 120,
+          "mean_total_C": 0.6328116722218347,
+          "max_total_C": 0.9674618111902012,
+          "center_T_C": 49.713691835613474,
+          "surface_cell_T_C": 49.71406852189992,
+          "water_lost_kg": 0.16565863046805968,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 9.367198498607697e-08,
+          "vapor_out_kg_s": -4.707118862273334e-12,
+          "surface_liquid_evaporation_fraction": 1.0000502536101128
+        }
+      },
+      "ranges": {
+        "min_T_C": 27.80395039463096,
+        "min_liquid_C": 0.16926823275339656,
+        "min_gas_porosity": 0.11528226602784497,
+        "max_vapor_pressure_fraction_of_total": 0.0747439867683641
+      },
+      "audit": {
+        "integrated": [
+          {
+            "step_s": 120.0,
+            "water_residual_kg": -6.016915124418265e-06,
+            "water_relative_residual": 2.7307655444692507e-05,
+            "energy_residual_J": 132.11088215740165,
+            "energy_relative_residual": 0.0003167724227111553,
+            "net_internal_evaporation_kg": 0.0,
+            "surface_liquid_evaporation_kg": 0.16566228534679459,
+            "water_out_kg": 0.16565261355293526,
+            "convective_heat_in_J": 417052.9777393697,
+            "water_enthalpy_out_J": 428889.02933027706
+          },
+          {
+            "step_s": 60.0,
+            "water_residual_kg": -3.7880668778411675e-06,
+            "water_relative_residual": 1.7192069850169262e-05,
+            "energy_residual_J": 43.72317128867144,
+            "energy_relative_residual": 0.00010481475120132634,
+            "net_internal_evaporation_kg": 0.0,
+            "surface_liquid_evaporation_kg": 0.1656642938718764,
+            "water_out_kg": 0.16565484240118183,
+            "convective_heat_in_J": 417147.1170569182,
+            "water_enthalpy_out_J": 428894.7809369569
+          }
+        ],
+        "instantaneous_water_residual_kg_s": 2.9982712265633025e-22,
+        "instantaneous_energy_residual_W": 0.0
+      }
+    },
+    "internal": {
+      "parameters": {
+        "n": 80,
+        "permeability": 0.0,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 120.0,
+      "threshold_reached": false,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.5451888404392573,
+          "max_total_C": 2.55015158053394,
+          "center_T_C": 31.75234589747954,
+          "surface_cell_T_C": 34.701402494338794,
+          "water_lost_kg": 0.00041571821205460546,
+          "net_internal_evaporation_kg_s": 7.465582125824107e-09,
+          "surface_liquid_evaporation_kg_s": 2.6950607453639413e-07,
+          "vapor_out_kg_s": 7.1567328372481655e-09,
+          "surface_liquid_evaporation_fraction": 0.9741319301094825
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.5336358799686227,
+          "max_total_C": 2.550495955237894,
+          "center_T_C": 38.96470422978871,
+          "surface_cell_T_C": 41.05779602761427,
+          "water_lost_kg": 0.001413975702822312,
+          "net_internal_evaporation_kg_s": 6.493645228611989e-08,
+          "surface_liquid_evaporation_kg_s": 7.695295357556551e-07,
+          "vapor_out_kg_s": 6.473282469104124e-08,
+          "surface_liquid_evaporation_fraction": 0.9224071134452466
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.4659726937408535,
+          "max_total_C": 2.5507032202193747,
+          "center_T_C": 48.92605034237848,
+          "surface_cell_T_C": 49.10142389331062,
+          "water_lost_kg": 0.007260553527854041,
+          "net_internal_evaporation_kg_s": 2.681059655639998e-07,
+          "surface_liquid_evaporation_kg_s": 8.421107544117555e-09,
+          "vapor_out_kg_s": 2.681000704504274e-07,
+          "surface_liquid_evaporation_fraction": 0.030453752602933294
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 2.3543353155265376,
+          "max_total_C": 2.548677137529328,
+          "center_T_C": 48.62874914920808,
+          "surface_cell_T_C": 48.79935961435798,
+          "water_lost_kg": 0.016906812539591698,
+          "net_internal_evaporation_kg_s": 3.9342986060823167e-07,
+          "surface_liquid_evaporation_kg_s": 7.824477521075147e-09,
+          "vapor_out_kg_s": 3.934068249077481e-07,
+          "surface_liquid_evaporation_fraction": 0.019501164225498524
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 2.1016882275727538,
+          "max_total_C": 2.545315468577401,
+          "center_T_C": 47.9354492876919,
+          "surface_cell_T_C": 48.189899224030036,
+          "water_lost_kg": 0.03873730773704109,
+          "net_internal_evaporation_kg_s": 5.869254405147157e-07,
+          "surface_liquid_evaporation_kg_s": 1.2514720043955853e-08,
+          "vapor_out_kg_s": 5.868905586707792e-07,
+          "surface_liquid_evaporation_fraction": 0.020878561614923276
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 1.562556756504447,
+          "max_total_C": 2.5362216989492925,
+          "center_T_C": 48.07779987028441,
+          "surface_cell_T_C": 48.63277809874589,
+          "water_lost_kg": 0.08532207974163061,
+          "net_internal_evaporation_kg_s": 4.3879889920599933e-07,
+          "surface_liquid_evaporation_kg_s": 9.34586761587307e-09,
+          "vapor_out_kg_s": 4.387730989618331e-07,
+          "surface_liquid_evaporation_fraction": 0.020855773383679017
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 1.1757380034935485,
+          "max_total_C": 2.519225729941698,
+          "center_T_C": 48.27151194389231,
+          "surface_cell_T_C": 48.97625195577208,
+          "water_lost_kg": 0.1187459557034723,
+          "net_internal_evaporation_kg_s": 3.2891840235982366e-07,
+          "surface_liquid_evaporation_kg_s": 6.776643686522456e-09,
+          "vapor_out_kg_s": 3.2889964981298025e-07,
+          "surface_liquid_evaporation_fraction": 0.0201880317965692
+        },
+        "120.000000": {
+          "time_h": 120,
+          "mean_total_C": 0.6408093205006069,
+          "max_total_C": 2.4316543161301407,
+          "center_T_C": 48.502658872610155,
+          "surface_cell_T_C": 49.35216333312531,
+          "water_lost_kg": 0.16496757709493484,
+          "net_internal_evaporation_kg_s": 2.082556652722876e-07,
+          "surface_liquid_evaporation_kg_s": 4.147571364620812e-09,
+          "vapor_out_kg_s": 2.0824504925140882e-07,
+          "surface_liquid_evaporation_fraction": 0.019527850603241664
+        }
+      },
+      "ranges": {
+        "min_T_C": 27.797216869195186,
+        "min_liquid_C": 0.11029716139936611,
+        "min_gas_porosity": 0.11504716944614957,
+        "max_vapor_pressure_fraction_of_total": 0.11350641356036295
+      },
+      "audit": {
+        "integrated": [
+          {
+            "step_s": 120.0,
+            "water_residual_kg": -3.3727993228871433e-07,
+            "water_relative_residual": 1.5307385909386438e-06,
+            "energy_residual_J": 145.84159780439222,
+            "energy_relative_residual": 0.0003511676259578007,
+            "net_internal_evaporation_kg": 0.15691361345518215,
+            "surface_liquid_evaporation_kg": 0.008065238652879411,
+            "water_out_kg": 0.16496723981500255,
+            "convective_heat_in_J": 415304.79185435444,
+            "water_enthalpy_out_J": 427361.90566679346
+          },
+          {
+            "step_s": 60.0,
+            "water_residual_kg": -8.029689366195747e-08,
+            "water_relative_residual": 3.6442593256820246e-07,
+            "energy_residual_J": 52.490825702552684,
+            "energy_relative_residual": 0.0001263624889565819,
+            "net_internal_evaporation_kg": 0.1569137554072982,
+            "surface_liquid_evaporation_kg": 0.0080650159265412,
+            "water_out_kg": 0.16496749679804118,
+            "convective_heat_in_J": 415398.7954494036,
+            "water_enthalpy_out_J": 427362.55848974077
+          }
+        ],
+        "instantaneous_water_residual_kg_s": 1.0587911840678754e-22,
+        "instantaneous_energy_residual_W": 0.0
+      }
+    },
+    "coupled": {
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 105.24988175052569,
+      "threshold_reached": true,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.5450539188497117,
+          "max_total_C": 2.5499908172136627,
+          "center_T_C": 31.741850728110222,
+          "surface_cell_T_C": 34.67944564105518,
+          "water_lost_kg": 0.0004273763915985107,
+          "net_internal_evaporation_kg_s": 6.467752606066806e-09,
+          "surface_liquid_evaporation_kg_s": 2.8630408602130983e-07,
+          "vapor_out_kg_s": 6.1586459292187195e-09,
+          "surface_liquid_evaporation_fraction": 0.9789421172121839
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.5322228095968318,
+          "max_total_C": 2.5500299411429257,
+          "center_T_C": 38.85936034095155,
+          "surface_cell_T_C": 40.850119407532105,
+          "water_lost_kg": 0.0015360749766151482,
+          "net_internal_evaporation_kg_s": 5.229550452498454e-08,
+          "surface_liquid_evaporation_kg_s": 9.260195963400146e-07,
+          "vapor_out_kg_s": 5.206523687351768e-08,
+          "surface_liquid_evaporation_fraction": 0.9467681788884759
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.3512086851681184,
+          "max_total_C": 2.5496190774788277,
+          "center_T_C": 45.32857075595313,
+          "surface_cell_T_C": 45.43554147638776,
+          "water_lost_kg": 0.01717697551505476,
+          "net_internal_evaporation_kg_s": 2.3228310666082038e-07,
+          "surface_liquid_evaporation_kg_s": 1.261770385047609e-06,
+          "vapor_out_kg_s": 2.3220240465726643e-07,
+          "surface_liquid_evaporation_fraction": 0.8445738729263359
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.9064482584658526,
+          "max_total_C": 2.503022322612549,
+          "center_T_C": 46.10118284213117,
+          "surface_cell_T_C": 46.31528372912701,
+          "water_lost_kg": 0.05560742186524367,
+          "net_internal_evaporation_kg_s": 4.516375624170005e-07,
+          "surface_liquid_evaporation_kg_s": 7.491788452537965e-07,
+          "vapor_out_kg_s": 4.515584315358617e-07,
+          "surface_liquid_evaporation_fraction": 0.6239323620041451
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.3926143571761969,
+          "max_total_C": 2.2076577893336577,
+          "center_T_C": 46.94717260615622,
+          "surface_cell_T_C": 47.33572398450223,
+          "water_lost_kg": 0.10000630492873049,
+          "net_internal_evaporation_kg_s": 6.3163556388975e-07,
+          "surface_liquid_evaporation_kg_s": 2.386644952649007e-07,
+          "vapor_out_kg_s": 6.315762079558532e-07,
+          "surface_liquid_evaporation_fraction": 0.2742511288906682
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.7363978229329647,
+          "max_total_C": 1.5250990638657944,
+          "center_T_C": 47.78195333671441,
+          "surface_cell_T_C": 48.505082747674656,
+          "water_lost_kg": 0.156708054453365,
+          "net_internal_evaporation_kg_s": 4.713784091106386e-07,
+          "surface_liquid_evaporation_kg_s": 1.8264032474061386e-08,
+          "vapor_out_kg_s": 4.7135069404661865e-07,
+          "surface_liquid_evaporation_fraction": 0.0373028658754813
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.3599248405434348,
+          "max_total_C": 0.951916555666696,
+          "center_T_C": 48.24896014145541,
+          "surface_cell_T_C": 49.14520550917763,
+          "water_lost_kg": 0.18923798266503505,
+          "net_internal_evaporation_kg_s": 2.717603948869716e-07,
+          "surface_liquid_evaporation_kg_s": 8.180305495363427e-09,
+          "vapor_out_kg_s": 2.717523027351411e-07,
+          "surface_liquid_evaporation_fraction": 0.029222410161761258
+        },
+        "105.249882": {
+          "time_h": 105.24988175052569,
+          "mean_total_C": 0.11917673994136886,
+          "max_total_C": 0.15000000000000005,
+          "center_T_C": 49.43713775099657,
+          "surface_cell_T_C": 49.79574937196568,
+          "water_lost_kg": 0.21004032120198216,
+          "net_internal_evaporation_kg_s": 6.438289023318134e-08,
+          "surface_liquid_evaporation_kg_s": 1.7634613805777139e-09,
+          "vapor_out_kg_s": 6.440225527237797e-08,
+          "surface_liquid_evaporation_fraction": 0.026652191947488538
+        }
+      },
+      "ranges": {
+        "min_T_C": 27.79702236558548,
+        "min_liquid_C": 0.10344376494210239,
+        "min_gas_porosity": 0.11526842618339683,
+        "max_vapor_pressure_fraction_of_total": 0.10531484706148928
+      },
+      "audit": {
+        "integrated": [
+          {
+            "step_s": 120.0,
+            "water_residual_kg": -6.585267983721943e-06,
+            "water_relative_residual": 2.988711414270284e-05,
+            "energy_residual_J": 130.64870206383057,
+            "energy_relative_residual": 0.00025002158403575515,
+            "net_internal_evaporation_kg": 0.1380074107503746,
+            "surface_liquid_evaporation_kg": 0.07203885511120178,
+            "water_out_kg": 0.21003373593399843,
+            "convective_heat_in_J": 522549.6933302635,
+            "water_enthalpy_out_J": 543623.8962277961
+          },
+          {
+            "step_s": 60.0,
+            "water_residual_kg": -4.2308165295323885e-06,
+            "water_relative_residual": 1.920148076699858e-05,
+            "energy_residual_J": 42.636615822208114,
+            "energy_relative_residual": 8.157873021388735e-05,
+            "net_internal_evaporation_kg": 0.13800756931005753,
+            "surface_liquid_evaporation_kg": 0.07204087655211107,
+            "water_out_kg": 0.21003609038545262,
+            "convective_heat_in_J": 522643.7787205221,
+            "water_enthalpy_out_J": 543629.969531813
+          }
+        ],
+        "instantaneous_water_residual_kg_s": 2.117582368135751e-22,
+        "instantaneous_energy_residual_W": 0.0
+      }
+    }
+  },
+  "mesh": [
+    {
+      "n": 40,
+      "end_h": 104.5672522275413,
+      "reached": true
+    },
+    {
+      "n": 80,
+      "end_h": 105.24988175052569,
+      "reached": true,
+      "time_change_h": 0.682629522984385,
+      "max_T_difference_C": 0.03327435705403303,
+      "max_C_difference": 0.04449880246374788
+    },
+    {
+      "n": 160,
+      "end_h": 105.65605488882896,
+      "reached": true,
+      "time_change_h": 0.40617313830327473,
+      "max_T_difference_C": 0.017222195391575212,
+      "max_C_difference": 0.01962371390238188
+    }
+  ],
+  "sensitivity": [
+    {
+      "name": "K/10",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-20,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 120.0,
+      "threshold_reached": false,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.5451196983946534,
+          "max_total_C": 2.5501348417185636,
+          "center_T_C": 31.747096370211203,
+          "surface_cell_T_C": 34.689295291574425,
+          "water_lost_kg": 0.0004216925737022814,
+          "net_internal_evaporation_kg_s": 7.0033585591855264e-09,
+          "surface_liquid_evaporation_kg_s": 2.7929176393804896e-07,
+          "vapor_out_kg_s": 6.692638776181014e-09,
+          "surface_liquid_evaporation_fraction": 0.9765978888615522
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.5328097502302107,
+          "max_total_C": 2.550446914297457,
+          "center_T_C": 38.90254284478023,
+          "surface_cell_T_C": 40.934826823639504,
+          "water_lost_kg": 0.0014853591548657785,
+          "net_internal_evaporation_kg_s": 5.958015814390254e-08,
+          "surface_liquid_evaporation_kg_s": 8.611935147783426e-07,
+          "vapor_out_kg_s": 5.935776511240293e-08,
+          "surface_liquid_evaporation_fraction": 0.9355193280276057
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.393902189758128,
+          "max_total_C": 2.550538447632516,
+          "center_T_C": 46.81885849058106,
+          "surface_cell_T_C": 47.04091074109048,
+          "water_lost_kg": 0.013487954776826488,
+          "net_internal_evaporation_kg_s": 3.6655586371394914e-07,
+          "surface_liquid_evaporation_kg_s": 5.480525165482659e-07,
+          "vapor_out_kg_s": 3.6650906724524983e-07,
+          "surface_liquid_evaporation_fraction": 0.5992516264186338
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 2.196771596303841,
+          "max_total_C": 2.5482030126121202,
+          "center_T_C": 48.03295747230815,
+          "surface_cell_T_C": 48.25252849132644,
+          "water_lost_kg": 0.03052143221972259,
+          "net_internal_evaporation_kg_s": 5.422114678195737e-07,
+          "surface_liquid_evaporation_kg_s": 3.7141004978022294e-08,
+          "vapor_out_kg_s": 5.42175661188044e-07,
+          "surface_liquid_evaporation_fraction": 0.06411174949241921
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.8746301769722675,
+          "max_total_C": 2.5423958863687077,
+          "center_T_C": 47.600046173264225,
+          "surface_cell_T_C": 47.9379786227714,
+          "water_lost_kg": 0.05835672913358958,
+          "net_internal_evaporation_kg_s": 6.444954629885732e-07,
+          "surface_liquid_evaporation_kg_s": 3.324980828321138e-08,
+          "vapor_out_kg_s": 6.444541778875626e-07,
+          "surface_liquid_evaporation_fraction": 0.049062435756181
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 1.3178000757291968,
+          "max_total_C": 2.513768256023959,
+          "center_T_C": 47.96356608556612,
+          "surface_cell_T_C": 48.60510037761388,
+          "water_lost_kg": 0.10647078795545796,
+          "net_internal_evaporation_kg_s": 4.466734833798938e-07,
+          "surface_liquid_evaporation_kg_s": 1.051296497718757e-08,
+          "vapor_out_kg_s": 4.466463850729165e-07,
+          "surface_liquid_evaporation_fraction": 0.022996281222368877
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.9253020849843391,
+          "max_total_C": 2.4273502505899707,
+          "center_T_C": 48.17954678907587,
+          "surface_cell_T_C": 48.96998667485828,
+          "water_lost_kg": 0.14038539022283716,
+          "net_internal_evaporation_kg_s": 3.3034200532623394e-07,
+          "surface_liquid_evaporation_kg_s": 7.361037144684461e-09,
+          "vapor_out_kg_s": 3.303231113879348e-07,
+          "surface_liquid_evaporation_fraction": 0.021798586568754524
+        },
+        "120.000000": {
+          "time_h": 120,
+          "mean_total_C": 0.40233207624685074,
+          "max_total_C": 1.886601071071406,
+          "center_T_C": 48.46122954448048,
+          "surface_cell_T_C": 49.39670099865764,
+          "water_lost_kg": 0.18557369758319048,
+          "net_internal_evaporation_kg_s": 1.9363023570630565e-07,
+          "surface_liquid_evaporation_kg_s": 4.087798295163646e-09,
+          "vapor_out_kg_s": 1.9362203441497997e-07,
+          "surface_liquid_evaporation_fraction": 0.020675746062446185
+        }
+      }
+    },
+    {
+      "name": "K*10",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-18,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 65.6619311645866,
+      "threshold_reached": true,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.545022157605263,
+          "max_total_C": 2.5484732847510894,
+          "center_T_C": 31.739610115247856,
+          "surface_cell_T_C": 34.673677036338454,
+          "water_lost_kg": 0.0004301207877441815,
+          "net_internal_evaporation_kg_s": 6.0331464941297644e-09,
+          "surface_liquid_evaporation_kg_s": 2.8956021693372936e-07,
+          "vapor_out_kg_s": 5.72487888123922e-09,
+          "surface_liquid_evaporation_fraction": 0.9806123676325793
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.5319624851694513,
+          "max_total_C": 2.5452710650445716,
+          "center_T_C": 38.842508526962156,
+          "surface_cell_T_C": 40.8119873010438,
+          "water_lost_kg": 0.001558568848235603,
+          "net_internal_evaporation_kg_s": 4.6250596686439734e-08,
+          "surface_liquid_evaporation_kg_s": 9.563424512812268e-07,
+          "vapor_out_kg_s": 4.600887854184236e-08,
+          "surface_liquid_evaporation_fraction": 0.9540990497314313
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.3387431712548077,
+          "max_total_C": 2.455214076480829,
+          "center_T_C": 44.94160289824794,
+          "surface_cell_T_C": 45.00993244632656,
+          "water_lost_kg": 0.018254084077129473,
+          "net_internal_evaporation_kg_s": 1.504796581401154e-07,
+          "surface_liquid_evaporation_kg_s": 1.4929648943481164e-06,
+          "vapor_out_kg_s": 1.5038669178351707e-07,
+          "surface_liquid_evaporation_fraction": 0.9084878165739811
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.8193245619766971,
+          "max_total_C": 1.96313564004952,
+          "center_T_C": 45.31555436327411,
+          "surface_cell_T_C": 45.455106687939896,
+          "water_lost_kg": 0.06313552540759865,
+          "net_internal_evaporation_kg_s": 2.781654174875717e-07,
+          "surface_liquid_evaporation_kg_s": 1.2071415232982945e-06,
+          "vapor_out_kg_s": 2.780710321672023e-07,
+          "surface_liquid_evaporation_fraction": 0.8127735783380521
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.1386268508855881,
+          "max_total_C": 1.314678649859437,
+          "center_T_C": 45.98244867868706,
+          "surface_cell_T_C": 46.24490416198584,
+          "water_lost_kg": 0.12195262175033403,
+          "net_internal_evaporation_kg_s": 4.708661900282335e-07,
+          "surface_liquid_evaporation_kg_s": 7.568642116941862e-07,
+          "vapor_out_kg_s": 4.7078631506662096e-07,
+          "surface_liquid_evaporation_fraction": 0.6165143867866005
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.2832955766366557,
+          "max_total_C": 0.46285000881506594,
+          "center_T_C": 48.022555699343144,
+          "surface_cell_T_C": 48.72518277891521,
+          "water_lost_kg": 0.195859293012404,
+          "net_internal_evaporation_kg_s": 3.7896728606436245e-07,
+          "surface_liquid_evaporation_kg_s": 3.7141302894190374e-08,
+          "vapor_out_kg_s": 3.7896246559244544e-07,
+          "surface_liquid_evaporation_fraction": 0.08925971285785954
+        },
+        "65.661931": {
+          "time_h": 65.6619311645866,
+          "mean_total_C": 0.12209610419584371,
+          "max_total_C": 0.14999999999999997,
+          "center_T_C": 49.38529667520649,
+          "surface_cell_T_C": 49.744194338681,
+          "water_lost_kg": 0.2097880674837498,
+          "net_internal_evaporation_kg_s": 7.896426162707912e-08,
+          "surface_liquid_evaporation_kg_s": 3.8939499745642555e-09,
+          "vapor_out_kg_s": 7.89868578598709e-08,
+          "surface_liquid_evaporation_fraction": 0.04698252920438361
+        }
+      }
+    },
+    {
+      "name": "evap/10",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 0.1,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 120.0,
+      "threshold_reached": false,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.545142708999368,
+          "max_total_C": 2.549904103637229,
+          "center_T_C": 31.742456025110656,
+          "surface_cell_T_C": 34.688705907856054,
+          "water_lost_kg": 0.00041970429471682724,
+          "net_internal_evaporation_kg_s": -5.246018037711655e-10,
+          "surface_liquid_evaporation_kg_s": 2.889496591121656e-07,
+          "vapor_out_kg_s": -8.305051918574245e-10,
+          "surface_liquid_evaporation_fraction": 1.0028825060068278
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.5325977921212033,
+          "max_total_C": 2.549702305267678,
+          "center_T_C": 38.87775511816185,
+          "surface_cell_T_C": 40.889284143691924,
+          "water_lost_kg": 0.0015036738345172163,
+          "net_internal_evaporation_kg_s": 1.2780227109746916e-08,
+          "surface_liquid_evaporation_kg_s": 9.401101859598254e-07,
+          "vapor_out_kg_s": 1.2674508771665257e-08,
+          "surface_liquid_evaporation_fraction": 0.9866974051517093
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.359355870059284,
+          "max_total_C": 2.5472553938947144,
+          "center_T_C": 45.60417962775269,
+          "surface_cell_T_C": 45.68607507154394,
+          "water_lost_kg": 0.016473001121050046,
+          "net_internal_evaporation_kg_s": 5.717247080966183e-08,
+          "surface_liquid_evaporation_kg_s": 1.3479654057844914e-06,
+          "vapor_out_kg_s": 5.714999326387226e-08,
+          "surface_liquid_evaporation_fraction": 0.9593271888539704
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.9574317209157641,
+          "max_total_C": 2.49903038867374,
+          "center_T_C": 46.66472826443348,
+          "surface_cell_T_C": 46.79096339579562,
+          "water_lost_kg": 0.051202090138777356,
+          "net_internal_evaporation_kg_s": 1.1669543747947644e-07,
+          "surface_liquid_evaporation_kg_s": 9.26358175822547e-07,
+          "vapor_out_kg_s": 1.166350312395073e-07,
+          "surface_liquid_evaporation_fraction": 0.8881727796022281
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.5261973448277866,
+          "max_total_C": 2.217108879797041,
+          "center_T_C": 47.6077072688895,
+          "surface_cell_T_C": 47.814592053629575,
+          "water_lost_kg": 0.08846379005548397,
+          "net_internal_evaporation_kg_s": 1.8210656056202862e-07,
+          "surface_liquid_evaporation_kg_s": 5.312323560411289e-07,
+          "vapor_out_kg_s": 1.820630106078202e-07,
+          "surface_liquid_evaporation_fraction": 0.7447578953678761
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.9851369379919948,
+          "max_total_C": 1.5838032996805556,
+          "center_T_C": 48.37014254647812,
+          "surface_cell_T_C": 48.720384830429396,
+          "water_lost_kg": 0.13521523575241373,
+          "net_internal_evaporation_kg_s": 2.424196857903057e-07,
+          "surface_liquid_evaporation_kg_s": 1.7704206377177105e-07,
+          "vapor_out_kg_s": 2.4239390916408175e-07,
+          "surface_liquid_evaporation_fraction": 0.422095564509073
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.6341584450873204,
+          "max_total_C": 1.1051490636908152,
+          "center_T_C": 48.63967995646593,
+          "surface_cell_T_C": 49.09909976261434,
+          "water_lost_kg": 0.16554225976768802,
+          "net_internal_evaporation_kg_s": 2.452396091197118e-07,
+          "surface_liquid_evaporation_kg_s": 5.0391590795128774e-08,
+          "vapor_out_kg_s": 2.4522299085346083e-07,
+          "surface_liquid_evaporation_fraction": 0.1704638198633636
+        },
+        "120.000000": {
+          "time_h": 120,
+          "mean_total_C": 0.21198697552782622,
+          "max_total_C": 0.42903640505659213,
+          "center_T_C": 49.10456211134898,
+          "surface_cell_T_C": 49.61048605359201,
+          "water_lost_kg": 0.2020208604646594,
+          "net_internal_evaporation_kg_s": 1.246542986644949e-07,
+          "surface_liquid_evaporation_kg_s": 2.84600345587449e-09,
+          "vapor_out_kg_s": 1.2465416488423843e-07,
+          "surface_liquid_evaporation_fraction": 0.022321566260858863
+        }
+      }
+    },
+    {
+      "name": "evap*10",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 10.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.1,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 98.11329014435759,
+      "threshold_reached": true,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.04938548672370497,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5499999999999994,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+          "vapor_out_kg_s": 9.736184929032415e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312585346259
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.5448513122415957,
+          "max_total_C": 2.5499947263352083,
+          "center_T_C": 31.728877966230613,
+          "surface_cell_T_C": 34.65633616735803,
+          "water_lost_kg": 0.00044488303543621655,
+          "net_internal_evaporation_kg_s": 2.5380798097367492e-08,
+          "surface_liquid_evaporation_kg_s": 2.795629773174398e-07,
+          "vapor_out_kg_s": 2.502593773860694e-08,
+          "surface_liquid_evaporation_fraction": 0.917837004232403
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.531489932657674,
+          "max_total_C": 2.5500657889274527,
+          "center_T_C": 38.81627207018525,
+          "surface_cell_T_C": 40.772823329240886,
+          "water_lost_kg": 0.0015994007272905064,
+          "net_internal_evaporation_kg_s": 1.240700309740588e-07,
+          "surface_liquid_evaporation_kg_s": 8.965951335672149e-07,
+          "vapor_out_kg_s": 1.2380286651837983e-07,
+          "surface_liquid_evaporation_fraction": 0.8786719823951098
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.338787072226329,
+          "max_total_C": 2.5501849579214713,
+          "center_T_C": 44.99787357801273,
+          "surface_cell_T_C": 45.071289316674466,
+          "water_lost_kg": 0.018250290722708812,
+          "net_internal_evaporation_kg_s": 5.154553514294456e-07,
+          "surface_liquid_evaporation_kg_s": 1.1050907348890901e-06,
+          "vapor_out_kg_s": 5.153291245823126e-07,
+          "surface_liquid_evaporation_fraction": 0.6819780246642878
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.8420118572375341,
+          "max_total_C": 2.5077470686231726,
+          "center_T_C": 45.6299407322514,
+          "surface_cell_T_C": 45.821477806245234,
+          "water_lost_kg": 0.0611751826455027,
+          "net_internal_evaporation_kg_s": 9.36437379868828e-07,
+          "surface_liquid_evaporation_kg_s": 4.248516918710825e-07,
+          "vapor_out_kg_s": 9.363456195897196e-07,
+          "surface_liquid_evaporation_fraction": 0.31211617029653294
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.2899499237714132,
+          "max_total_C": 2.212539152174058,
+          "center_T_C": 46.80074310829858,
+          "surface_cell_T_C": 47.306062940504724,
+          "water_lost_kg": 0.10887723804948735,
+          "net_internal_evaporation_kg_s": 8.223212111668406e-07,
+          "surface_liquid_evaporation_kg_s": 5.6987491142591115e-08,
+          "vapor_out_kg_s": 8.22262408978154e-07,
+          "surface_liquid_evaporation_fraction": 0.06481375901750477
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.6530429202477013,
+          "max_total_C": 1.5231124788000436,
+          "center_T_C": 47.75800728459891,
+          "surface_cell_T_C": 48.593373812381316,
+          "water_lost_kg": 0.16391050755698983,
+          "net_internal_evaporation_kg_s": 4.410083944083092e-07,
+          "surface_liquid_evaporation_kg_s": 1.950512481220712e-08,
+          "vapor_out_kg_s": 4.4098429404713276e-07,
+          "surface_liquid_evaporation_fraction": 0.0423573789393956
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.30399864326575154,
+          "max_total_C": 0.9209648132355049,
+          "center_T_C": 48.24714214264062,
+          "surface_cell_T_C": 49.222764901743076,
+          "water_lost_kg": 0.19407040163716827,
+          "net_internal_evaporation_kg_s": 2.450524224690159e-07,
+          "surface_liquid_evaporation_kg_s": 9.365447588605994e-09,
+          "vapor_out_kg_s": 2.450481920127596e-07,
+          "surface_liquid_evaporation_fraction": 0.03681189264569495
+        },
+        "98.113290": {
+          "time_h": 98.11329014435759,
+          "mean_total_C": 0.12061427133674188,
+          "max_total_C": 0.15000000000000002,
+          "center_T_C": 49.370356300176574,
+          "surface_cell_T_C": 49.76590341735913,
+          "water_lost_kg": 0.2099161083227559,
+          "net_internal_evaporation_kg_s": 7.328772395683629e-08,
+          "surface_liquid_evaporation_kg_s": 2.529711522971414e-09,
+          "vapor_out_kg_s": 7.331095059691961e-08,
+          "surface_liquid_evaporation_fraction": 0.03335560967245217
+        }
+      }
+    },
+    {
+      "name": "Ceq=.05",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.05,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 117.06176048079027,
+      "threshold_reached": true,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.024692743361852485,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5500000000000003,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": 0.0,
+          "surface_liquid_evaporation_kg_s": 6.273677351413993e-07,
+          "vapor_out_kg_s": 1.0312239979099617e-07,
+          "surface_liquid_evaporation_fraction": 0.8588312218610046
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.544436986340747,
+          "max_total_C": 2.550070045718785,
+          "center_T_C": 31.688751037123932,
+          "surface_cell_T_C": 34.61324833992604,
+          "water_lost_kg": 0.00048068372351037225,
+          "net_internal_evaporation_kg_s": 8.381794839834849e-09,
+          "surface_liquid_evaporation_kg_s": 3.1439048737237015e-07,
+          "vapor_out_kg_s": 8.070548914080118e-09,
+          "surface_liquid_evaporation_fraction": 0.9749720183032878
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.531032824995373,
+          "max_total_C": 2.5502615015588748,
+          "center_T_C": 38.78438860290371,
+          "surface_cell_T_C": 40.77841865842245,
+          "water_lost_kg": 0.0016388980621198923,
+          "net_internal_evaporation_kg_s": 5.7561620792768365e-08,
+          "surface_liquid_evaporation_kg_s": 9.422430719282056e-07,
+          "vapor_out_kg_s": 5.733784226499643e-08,
+          "surface_liquid_evaporation_fraction": 0.9426381181844835
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.353222951876376,
+          "max_total_C": 2.5501290341477856,
+          "center_T_C": 45.47327370771711,
+          "surface_cell_T_C": 45.603413846088,
+          "water_lost_kg": 0.017002928625945046,
+          "net_internal_evaporation_kg_s": 2.835171571187822e-07,
+          "surface_liquid_evaporation_kg_s": 1.1480328436345313e-06,
+          "vapor_out_kg_s": 2.834417268136264e-07,
+          "surface_liquid_evaporation_fraction": 0.8019931805530516
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.9470414557157965,
+          "max_total_C": 2.544028186679936,
+          "center_T_C": 46.52034033632985,
+          "surface_cell_T_C": 46.778266002391916,
+          "water_lost_kg": 0.05209988253521941,
+          "net_internal_evaporation_kg_s": 5.84029785445217e-07,
+          "surface_liquid_evaporation_kg_s": 4.6381589629251703e-07,
+          "vapor_out_kg_s": 5.839586427653867e-07,
+          "surface_liquid_evaporation_fraction": 0.44266765320481305
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.5062590621118428,
+          "max_total_C": 2.4538434150886173,
+          "center_T_C": 47.1897495873624,
+          "surface_cell_T_C": 47.63859333806501,
+          "water_lost_kg": 0.09018659869183537,
+          "net_internal_evaporation_kg_s": 7.317738200759175e-07,
+          "surface_liquid_evaporation_kg_s": 4.21214322678215e-08,
+          "vapor_out_kg_s": 7.317227212750093e-07,
+          "surface_liquid_evaporation_fraction": 0.05443141500130253
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.8800573484208932,
+          "max_total_C": 2.0108604299319883,
+          "center_T_C": 47.65785929204535,
+          "surface_cell_T_C": 48.476890910042925,
+          "water_lost_kg": 0.1442948554466709,
+          "net_internal_evaporation_kg_s": 4.911140306929081e-07,
+          "surface_liquid_evaporation_kg_s": 7.961617837648751e-09,
+          "vapor_out_kg_s": 4.910841628975894e-07,
+          "surface_liquid_evaporation_fraction": 0.015953682297281415
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.47038581751454134,
+          "max_total_C": 1.5028674619887863,
+          "center_T_C": 47.967062672227335,
+          "surface_cell_T_C": 48.986779761683756,
+          "water_lost_kg": 0.1796933730405837,
+          "net_internal_evaporation_kg_s": 3.2720396971500064e-07,
+          "surface_liquid_evaporation_kg_s": 4.8201684360180224e-09,
+          "vapor_out_kg_s": 3.2718808796507244e-07,
+          "surface_liquid_evaporation_fraction": 0.014518218577657609
+        },
+        "117.061760": {
+          "time_h": 117.06176048079027,
+          "mean_total_C": 0.06657077917026713,
+          "max_total_C": 0.14999999999999983,
+          "center_T_C": 49.00140531066966,
+          "surface_cell_T_C": 49.73108322221179,
+          "water_lost_kg": 0.21458584825820867,
+          "net_internal_evaporation_kg_s": 8.592515713417403e-08,
+          "surface_liquid_evaporation_kg_s": 1.1658143123417222e-09,
+          "vapor_out_kg_s": 8.59589867674944e-08,
+          "surface_liquid_evaporation_fraction": 0.013380969573444852
+        }
+      }
+    },
+    {
+      "name": "Ceq=.14",
+      "parameters": {
+        "n": 80,
+        "permeability": 3e-19,
+        "evaporation_rate": 1.0,
+        "gas_diffusion": 8e-06,
+        "equilibrium_C": 0.14,
+        "h": 25.0,
+        "gas_film": 0.005,
+        "hours": 120.0,
+        "method": "BDF",
+        "rtol": 2e-07,
+        "atol": 2e-09,
+        "sealed": false
+      },
+      "end_h": 113.43497930461632,
+      "threshold_reached": true,
+      "initial_porosity": 0.8166384976525821,
+      "initial_dry_mass_kg": 0.08640707230887533,
+      "water_activity_b": 0.06913968141318697,
+      "snapshots": {
+        "0.000000": {
+          "time_h": 0,
+          "mean_total_C": 2.5500000000000003,
+          "max_total_C": 2.55,
+          "center_T_C": 28.0,
+          "surface_cell_T_C": 28.0,
+          "water_lost_kg": 0.0,
+          "net_internal_evaporation_kg_s": -1.1850421028601505e-22,
+          "surface_liquid_evaporation_kg_s": 5.645293448267207e-07,
+          "vapor_out_kg_s": 9.279340641104743e-08,
+          "surface_liquid_evaporation_fraction": 0.8588312876188854
+        },
+        "0.500000": {
+          "time_h": 0.5,
+          "mean_total_C": 2.545551955743132,
+          "max_total_C": 2.5499255003655805,
+          "center_T_C": 31.78464591989621,
+          "surface_cell_T_C": 34.733171669829034,
+          "water_lost_kg": 0.0003843424817362995,
+          "net_internal_evaporation_kg_s": 5.061894344003307e-09,
+          "surface_liquid_evaporation_kg_s": 2.6313547940160227e-07,
+          "vapor_out_kg_s": 4.7545133179002345e-09,
+          "surface_liquid_evaporation_fraction": 0.9822519935528965
+        },
+        "1.000000": {
+          "time_h": 1,
+          "mean_total_C": 2.533229604801544,
+          "max_total_C": 2.5498414549441506,
+          "center_T_C": 38.923427984992614,
+          "surface_cell_T_C": 40.91562802457131,
+          "water_lost_kg": 0.0014490807505614378,
+          "net_internal_evaporation_kg_s": 4.9123298246689325e-08,
+          "surface_liquid_evaporation_kg_s": 9.064507686332951e-07,
+          "vapor_out_kg_s": 4.891019703725601e-08,
+          "surface_liquid_evaporation_fraction": 0.9488044845929762
+        },
+        "4.000000": {
+          "time_h": 4,
+          "mean_total_C": 2.3530790342185828,
+          "max_total_C": 2.549017120272557,
+          "center_T_C": 45.329660919392005,
+          "surface_cell_T_C": 45.42681939504047,
+          "water_lost_kg": 0.01701536412940849,
+          "net_internal_evaporation_kg_s": 2.0847696763847401e-07,
+          "surface_liquid_evaporation_kg_s": 1.290938651963714e-06,
+          "vapor_out_kg_s": 2.0839548175268608e-07,
+          "surface_liquid_evaporation_fraction": 0.8610079787644559
+        },
+        "12.000000": {
+          "time_h": 12,
+          "mean_total_C": 1.9000110459306263,
+          "max_total_C": 2.4480109153412886,
+          "center_T_C": 45.99938683856819,
+          "surface_cell_T_C": 46.191041289061374,
+          "water_lost_kg": 0.05616364255424264,
+          "net_internal_evaporation_kg_s": 3.901082765677624e-07,
+          "surface_liquid_evaporation_kg_s": 8.521924719074384e-07,
+          "vapor_out_kg_s": 3.9002769190765107e-07,
+          "surface_liquid_evaporation_fraction": 0.6860236991244745
+        },
+        "24.000000": {
+          "time_h": 24,
+          "mean_total_C": 1.3598183387201594,
+          "max_total_C": 2.048564343699691,
+          "center_T_C": 46.82511073096756,
+          "surface_cell_T_C": 47.17000936323453,
+          "water_lost_kg": 0.10284011286690456,
+          "net_internal_evaporation_kg_s": 5.554571605440785e-07,
+          "surface_liquid_evaporation_kg_s": 3.6879805323434633e-07,
+          "vapor_out_kg_s": 5.553952336757913e-07,
+          "surface_liquid_evaporation_fraction": 0.39904861727285595
+        },
+        "48.000000": {
+          "time_h": 48,
+          "mean_total_C": 0.6867168375267535,
+          "max_total_C": 1.306520129248258,
+          "center_T_C": 47.89820406753146,
+          "surface_cell_T_C": 48.553309308428396,
+          "water_lost_kg": 0.16100084295173572,
+          "net_internal_evaporation_kg_s": 4.3981495041657856e-07,
+          "surface_liquid_evaporation_kg_s": 3.3832440145894625e-08,
+          "vapor_out_kg_s": 4.397897322605798e-07,
+          "surface_liquid_evaporation_fraction": 0.07143339589443624
+        },
+        "72.000000": {
+          "time_h": 72,
+          "mean_total_C": 0.3399307998337192,
+          "max_total_C": 0.7379053050482122,
+          "center_T_C": 48.48605443930399,
+          "surface_cell_T_C": 49.261549228905245,
+          "water_lost_kg": 0.1909656091863861,
+          "net_internal_evaporation_kg_s": 2.3060979855532172e-07,
+          "surface_liquid_evaporation_kg_s": 1.1087637373041608e-08,
+          "vapor_out_kg_s": 2.3060684280321194e-07,
+          "surface_liquid_evaporation_fraction": 0.0458745990597553
+        },
+        "113.434979": {
+          "time_h": 113.43497930461632,
+          "mean_total_C": 0.14509727102734657,
+          "max_total_C": 0.15,
+          "center_T_C": 49.88475832747103,
+          "surface_cell_T_C": 49.95107580355976,
+          "water_lost_kg": 0.2078006039981517,
+          "net_internal_evaporation_kg_s": 1.4928724166839817e-08,
+          "surface_liquid_evaporation_kg_s": 6.370961648902882e-10,
+          "vapor_out_kg_s": 1.4933159329540355e-08,
+          "surface_liquid_evaporation_fraction": 0.04091751513764
+        }
+      }
+    }
+  ],
+  "fine_coupled": {
+    "parameters": {
+      "n": 160,
+      "permeability": 3e-19,
+      "evaporation_rate": 1.0,
+      "gas_diffusion": 8e-06,
+      "equilibrium_C": 0.1,
+      "h": 25.0,
+      "gas_film": 0.005,
+      "hours": 120.0,
+      "method": "BDF",
+      "rtol": 2e-07,
+      "atol": 2e-09,
+      "sealed": false
+    },
+    "end_h": 105.65605488882896,
+    "threshold_reached": true,
+    "initial_porosity": 0.8166384976525821,
+    "initial_dry_mass_kg": 0.08640707230887533,
+    "water_activity_b": 0.04938548672370497,
+    "snapshots": {
+      "0.000000": {
+        "time_h": 0,
+        "mean_total_C": 2.5499999999999994,
+        "max_total_C": 2.55,
+        "center_T_C": 28.0,
+        "surface_cell_T_C": 28.0,
+        "water_lost_kg": 0.0,
+        "net_internal_evaporation_kg_s": 0.0,
+        "surface_liquid_evaporation_kg_s": 5.923223419809077e-07,
+        "vapor_out_kg_s": 9.736184929032415e-08,
+        "surface_liquid_evaporation_fraction": 0.8588312585346259
+      },
+      "0.500000": {
+        "time_h": 0.5,
+        "mean_total_C": 2.5450346821900998,
+        "max_total_C": 2.549990888681994,
+        "center_T_C": 31.732511687473444,
+        "surface_cell_T_C": 34.68472361564723,
+        "water_lost_kg": 0.0004290385750365666,
+        "net_internal_evaporation_kg_s": 6.219648300499091e-09,
+        "surface_liquid_evaporation_kg_s": 2.8737510841414216e-07,
+        "vapor_out_kg_s": 5.889621789544974e-09,
+        "surface_liquid_evaporation_fraction": 0.9799170470125939
+      },
+      "1.000000": {
+        "time_h": 1,
+        "mean_total_C": 2.532228508284356,
+        "max_total_C": 2.5500301101458884,
+        "center_T_C": 38.84707140574333,
+        "surface_cell_T_C": 40.853102741813196,
+        "water_lost_kg": 0.0015355825697102032,
+        "net_internal_evaporation_kg_s": 5.1632779397221886e-08,
+        "surface_liquid_evaporation_kg_s": 9.234047616110403e-07,
+        "vapor_out_kg_s": 5.14095910446144e-08,
+        "surface_liquid_evaporation_fraction": 0.9472621726336292
+      },
+      "4.000000": {
+        "time_h": 4,
+        "mean_total_C": 2.3519309277150184,
+        "max_total_C": 2.5496250272580396,
+        "center_T_C": 45.34567642244711,
+        "surface_cell_T_C": 45.455321660571975,
+        "water_lost_kg": 0.017114568651080214,
+        "net_internal_evaporation_kg_s": 2.308396681172801e-07,
+        "surface_liquid_evaporation_kg_s": 1.2567874059567884e-06,
+        "vapor_out_kg_s": 2.307589132248656e-07,
+        "surface_liquid_evaporation_fraction": 0.8448727879937121
+      },
+      "12.000000": {
+        "time_h": 12,
+        "mean_total_C": 1.9095563658756065,
+        "max_total_C": 2.5032504270604568,
+        "center_T_C": 46.12028917289997,
+        "surface_cell_T_C": 46.337553185136585,
+        "water_lost_kg": 0.055338859403545326,
+        "net_internal_evaporation_kg_s": 4.4728654758517954e-07,
+        "surface_liquid_evaporation_kg_s": 7.462734298878997e-07,
+        "vapor_out_kg_s": 4.4720772827183025e-07,
+        "surface_liquid_evaporation_fraction": 0.625291337685301
+      },
+      "24.000000": {
+        "time_h": 24,
+        "mean_total_C": 1.3982632458637514,
+        "max_total_C": 2.208864357649609,
+        "center_T_C": 46.951401401626676,
+        "surface_cell_T_C": 47.34208900813634,
+        "water_lost_kg": 0.09951820099544016,
+        "net_internal_evaporation_kg_s": 6.256952010714803e-07,
+        "surface_liquid_evaporation_kg_s": 2.42613731939632e-07,
+        "vapor_out_kg_s": 6.256359641250168e-07,
+        "surface_liquid_evaporation_fraction": 0.27942852504214094
+      },
+      "48.000000": {
+        "time_h": 48,
+        "mean_total_C": 0.7417482702691811,
+        "max_total_C": 1.528519543482993,
+        "center_T_C": 47.77940672117042,
+        "surface_cell_T_C": 48.50209785399544,
+        "water_lost_kg": 0.15624573796349972,
+        "net_internal_evaporation_kg_s": 4.7297168964299745e-07,
+        "surface_liquid_evaporation_kg_s": 1.7648972157689347e-08,
+        "vapor_out_kg_s": 4.7294385418833656e-07,
+        "surface_liquid_evaporation_fraction": 0.03597478644182445
+      },
+      "72.000000": {
+        "time_h": 72,
+        "mean_total_C": 0.363980870363537,
+        "max_total_C": 0.957599743967995,
+        "center_T_C": 48.244712242200976,
+        "surface_cell_T_C": 49.140526629572385,
+        "water_lost_kg": 0.18888751300308254,
+        "net_internal_evaporation_kg_s": 2.7371931700127585e-07,
+        "surface_liquid_evaporation_kg_s": 7.757942617009129e-09,
+        "vapor_out_kg_s": 2.737110523802733e-07,
+        "surface_liquid_evaporation_fraction": 0.027562334590650137
+      },
+      "105.656055": {
+        "time_h": 105.65605488882896,
+        "mean_total_C": 0.11928370461255136,
+        "max_total_C": 0.14999999999999997,
+        "center_T_C": 49.43685893804579,
+        "surface_cell_T_C": 49.79571865824554,
+        "water_lost_kg": 0.2100310786979048,
+        "net_internal_evaporation_kg_s": 6.452258351676133e-08,
+        "surface_liquid_evaporation_kg_s": 1.6354654636403714e-09,
+        "vapor_out_kg_s": 6.454195958165516e-08,
+        "surface_liquid_evaporation_fraction": 0.024713343901201466
+      }
+    },
+    "ranges": {
+      "min_T_C": 27.795691676467026,
+      "min_liquid_C": 0.10334580796704648,
+      "min_gas_porosity": 0.11526818515887971,
+      "max_vapor_pressure_fraction_of_total": 0.1053232249992907
+    },
+    "audit": {
+      "integrated": [
+        {
+          "step_s": 120.0,
+          "water_residual_kg": -6.7618033305627545e-06,
+          "water_relative_residual": 3.068831647407265e-05,
+          "energy_residual_J": 129.73175725131296,
+          "energy_relative_residual": 0.00024827446687371703,
+          "net_internal_evaporation_kg": 0.13810503436807786,
+          "surface_liquid_evaporation_kg": 0.0719318273300792,
+          "water_out_kg": 0.21002431689457424,
+          "convective_heat_in_J": 522533.6253256363,
+          "water_enthalpy_out_J": 543605.1556953866
+        },
+        {
+          "step_s": 60.0,
+          "water_residual_kg": -4.283444834107808e-06,
+          "water_relative_residual": 1.9440333331521473e-05,
+          "energy_residual_J": 42.30317114968784,
+          "energy_relative_residual": 8.094326324152321e-05,
+          "net_internal_evaporation_kg": 0.13810519040848518,
+          "surface_liquid_evaporation_kg": 0.07193397714973629,
+          "water_out_kg": 0.2100267952530707,
+          "convective_heat_in_J": 522627.4486050949,
+          "water_enthalpy_out_J": 543611.5503887436
+        }
+      ],
+      "instantaneous_water_residual_kg_s": 2.117582368135751e-22,
+      "instantaneous_energy_residual_W": 0.0
+    }
+  },
+  "solver": {
+    "n": 40,
+    "BDF_h": 104.5672522275413,
+    "Radau_h": 104.56725038584116,
+    "difference_s": -0.006630120507907122
+  },
+  "sealed": {
+    "max_state_change": 0.0,
+    "inventory_change": [
+      0.0,
+      0.0
+    ]
+  }
+}

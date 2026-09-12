@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "scope": "Uncalibrated fixed-cylinder mechanistic experiments; file integrity and code syntax checked; five figures visually inspected.",
+  "files": [
+    {
+      "path": "code/make_figures.py",
+      "bytes": 5878,
+      "sha256": "4e484bbc63ebc3e0fc12b77c129e95ee7a92f7a439ebea9621dfbd098db2b974"
+    },
+    {
+      "path": "code/make_report.py",
+      "bytes": 17262,
+      "sha256": "0f841d1d44fd7854e5bd048257eabc58b6014eff1f20e3aa981bef8b01726eba"
+    },
+    {
+      "path": "code/refine_checks.py",
+      "bytes": 2238,
+      "sha256": "92ab29fa8dda2f57c79e9381ad8e1b08428670f08b8b6fdee6c6310f62f32bcf"
+    },
+    {
+      "path": "code/run_analysis.py",
+      "bytes": 8007,
+      "sha256": "fea283620e0a5e8262ad5c48b96b4c9fce5d23e79120638fda6152292e76fc9b"
+    },
+    {
+      "path": "code/two_phase.py",
+      "bytes": 6229,
+      "sha256": "de467c0ea16d23f57e9d0d1a6c546d579d24c55c0e146ac23a6da45bb4ec3399"
+    },
+    {
+      "path": "code/water_thermo.py",
+      "bytes": 2373,
+      "sha256": "d2fcf5a79604c7800f80f8c0ff6dbc747446b47c32342bc5f56ab00a7ec54581"
+    },
+    {
+      "path": "data/inputs.json",
+      "bytes": 20074,
+      "sha256": "817392d584a92523372bb27f2b50cc9a6fb14f8533a97235f0ea55c6a14e3b98"
+    },
+    {
+      "path": "figures/01_机制对照_含水率与温度.png",
+      "bytes": 272072,
+      "sha256": "33b9ab3bc6897e420070253e5a19e73009b06caf2c389a1168597aef5c933e66"
+    },
+    {
+      "path": "figures/02_内部相变时空分布.png",
+      "bytes": 222646,
+      "sha256": "22bde84ac9d2c7e17cceacdf712e8e44bb36bd9bc4175cd87b2758f807addbc6"
+    },
+    {
+      "path": "figures/03_径向梯度与失水速率.png",
+      "bytes": 188584,
+      "sha256": "96155aec3a2988adbfa87d1f87d0351d4031501c96a13e16d7dd1603db21e642"
+    },
+    {
+      "path": "figures/04_参数影响.png",
+      "bytes": 64014,
+      "sha256": "25c192d6f598b6086380432e8b41ce4449529176bf882068945020ac90f770b7"
+    },
+    {
+      "path": "figures/05_闭合假设与重复计数检查.png",
+      "bytes": 122661,
+      "sha256": "c1f4072f45a2f1a39378709733e375e677ced400f52d7a3345eb9cd7e7fac6ee"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "c0c8f75c84136e5450ae560eb84249a93cd1da34b84e77944386aee57ab6bbc6"
+    },
+    {
+      "path": "results/fields_capillary.npz",
+      "bytes": 3514320,
+      "sha256": "043f1f342a8f664429b0bac7c779b6a95bdb67b30e2d73aaf3c22571145ef657"
+    },
+    {
+      "path": "results/fields_coupled.npz",
+      "bytes": 4062471,
+      "sha256": "9938669159a8b0667487f3b481c85de0c6042319e0f5baa863dd6bf3d1218f31"
+    },
+    {
+      "path": "results/fields_coupled_fine.npz",
+      "bytes": 8139785,
+      "sha256": "c0a42d40c4137b2905618c85704df85c6ec5088105ed46d7dd5c1832524eaddd"
+    },
+    {
+      "path": "results/fields_internal.npz",
+      "bytes": 4534719,
+      "sha256": "7a8b5c0eafe3eecf9283e636ddbc047f49b36eb67cf0aafea83e14b002cdf537"
+    },
+    {
+      "path": "results/fields_neither.npz",
+      "bytes": 407965,
+      "sha256": "1519cf8334f4217682ab0d0a0b12c4877e23f6ac38fb0af2d7b3a808b89e3b92"
+    },
+    {
+      "path": "results/history_capillary.json",
+      "bytes": 538578,
+      "sha256": "fdab2d9448783da61b57dfcdce07f08220b6b12bbd42e95b81375a505af806c0"
+    },
+    {
+      "path": "results/history_coupled.json",
+      "bytes": 502082,
+      "sha256": "d9c189c245fe6b410b7b49819f9c5dd34553f6e2ed834d22ca1d666377308c48"
+    },
+    {
+      "path": "results/history_coupled_fine.json",
+      "bytes": 503960,
+      "sha256": "67f31965c396bc3cf3a860cd0070945c770d08ce6f70a72feaeed0d50f97adc3"
+    },
+    {
+      "path": "results/history_internal.json",
+      "bytes": 567321,
+      "sha256": "f763668637f0e9180e5dba5de481f8075e1181f5af49b6b886208e2639a1e9f6"
+    },
+    {
+      "path": "results/history_neither.json",
+      "bytes": 516296,
+      "sha256": "12b146147ebd8e318fbf48ec797ceaee0e890f60d6e966ede567198b600bdbeb"
+    },
+    {
+      "path": "results/refined_conservation.json",
+      "bytes": 4454,
+      "sha256": "da403cd068570b990b5a52d1074e8a784afe4973b11e0cddb6b8a7568965e98e"
+    },
+    {
+      "path": "results/study.json",
+      "bytes": 68806,
+      "sha256": "f1e95485325193c9f9bf25ec01e534dc3ac0f3b41551bfa4921a5b98d695e9dc"
+    },
+    {
+      "path": "毛细与内部蒸发建模分析.md",
+      "bytes": 16142,
+      "sha256": "a66bbcb5c5ee1b718bcd9edb901e41f0d0512fc5c773f04217d94319ad5d091c"
+    }
+  ]
+}

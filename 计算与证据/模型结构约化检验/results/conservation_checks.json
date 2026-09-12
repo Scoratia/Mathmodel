@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "q": 3,
+      "eta": 0.0,
+      "instant_water_error_kg_s": 8.470329472543003e-22,
+      "instant_energy_error_W": 4.884981308350689e-15,
+      "water_relative_residual": 1.4420259942333133e-09,
+      "energy_residual_J": 0.0006126393309386913
+    },
+    {
+      "q": 3,
+      "eta": 1.0,
+      "instant_water_error_kg_s": 5.293955920339377e-23,
+      "instant_energy_error_W": 4.884981308350689e-15,
+      "water_relative_residual": 7.07371993815221e-09,
+      "energy_residual_J": 8.068289753282443e-05
+    },
+    {
+      "q": 4,
+      "eta": 0.0,
+      "instant_water_error_kg_s": 8.470329472543003e-22,
+      "instant_energy_error_W": 3.552713678800501e-15,
+      "water_relative_residual": 7.538176606434957e-11,
+      "energy_residual_J": 0.00015343075210694224
+    },
+    {
+      "q": 4,
+      "eta": 1.0,
+      "instant_water_error_kg_s": 8.470329472543003e-22,
+      "instant_energy_error_W": 3.552713678800501e-15,
+      "water_relative_residual": 8.779037407895567e-09,
+      "energy_residual_J": -0.004723757025203668
+    }
+  ],
+  "status": "PASS"
+}

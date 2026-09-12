@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "results": {
+    "3": {
+      "surface_h": 60.42997040889931,
+      "internal_h": 61.35465555047703,
+      "change_pct": 1.5301763931387713,
+      "max_sampled_temperature_change_C": 10.327451237972362
+    },
+    "4": {
+      "surface_h": 56.50113557501021,
+      "internal_h": 58.65442360584497,
+      "change_pct": 3.811052661014358,
+      "max_sampled_temperature_change_C": 11.72854147886872
+    }
+  },
+  "conclusion": "Conditional support for retaining T-C macrostructure and modest stop-time sensitivity in tested latent-location family; not negligible physical mechanisms or proven local equilibrium."
+}

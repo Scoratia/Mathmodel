@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "cases": {
+    "neither": [
+      {
+        "gauss_order": 2,
+        "water_residual_kg": 4.3910960024345913e-10,
+        "water_relative_residual": 1.992890612207926e-09,
+        "energy_residual_J": -0.014260516487411223,
+        "energy_relative_residual": 4.0151293987203193e-07,
+        "net_internal_evaporation_kg": 0.0,
+        "surface_liquid_evaporation_kg": 0.0052593320681029974,
+        "water_out_kg": 0.005258202353630549,
+        "convective_heat_in_J": 35516.95368013858,
+        "water_enthalpy_out_J": 13568.17495268376
+      },
+      {
+        "gauss_order": 4,
+        "water_residual_kg": 4.4343409066199824e-10,
+        "water_relative_residual": 2.012517230147756e-09,
+        "energy_residual_J": -0.01428721161573776,
+        "energy_relative_residual": 4.02264555941433e-07,
+        "net_internal_evaporation_kg": 0.0,
+        "surface_liquid_evaporation_kg": 0.005259332072728897,
+        "water_out_kg": 0.00525820235795504,
+        "convective_heat_in_J": 35516.953717935525,
+        "water_enthalpy_out_J": 13568.17496378558
+      }
+    ],
+    "capillary": [
+      {
+        "gauss_order": 2,
+        "water_residual_kg": -2.794920295201564e-09,
+        "water_relative_residual": 1.2684692876421737e-08,
+        "energy_residual_J": 0.002046799985691905,
+        "energy_relative_residual": 4.906032644289796e-09,
+        "net_internal_evaporation_kg": 0.0,
+        "surface_liquid_evaporation_kg": 0.16566787411730272,
+        "water_out_kg": 0.16565862767313938,
+        "convective_heat_in_J": 417200.6454286858,
+        "water_enthalpy_out_J": 428904.5881842358
+      },
+      {
+        "gauss_order": 4,
+        "water_residual_kg": -2.791643666233412e-09,
+        "water_relative_residual": 1.2669821957847653e-08,
+        "energy_residual_J": 0.0020394507446326315,
+        "energy_relative_residual": 4.8884170408220575e-09,
+        "net_internal_evaporation_kg": 0.0,
+        "surface_liquid_evaporation_kg": 0.16566787412076986,
+        "water_out_kg": 0.165658627676416,
+        "convective_heat_in_J": 417200.6454444543,
+        "water_enthalpy_out_J": 428904.588192655
+      }
+    ],
+    "internal": [
+      {
+        "gauss_order": 2,
+        "water_residual_kg": -2.3397944609593324e-08,
+        "water_relative_residual": 1.0619112889257349e-07,
+        "energy_residual_J": -0.11119476269232109,
+        "energy_relative_residual": 2.676479558585391e-07,
+        "net_internal_evaporation_kg": 0.15691426280451748,
+        "surface_liquid_evaporation_kg": 0.008064169836096806,
+        "water_out_kg": 0.16496755369699023,
+        "convective_heat_in_J": 415451.5670991758,
+        "water_enthalpy_out_J": 427362.72811904777
+      },
+      {
+        "gauss_order": 4,
+        "water_residual_kg": -2.3390727355021568e-08,
+        "water_relative_residual": 1.0615837351925896e-07,
+        "energy_residual_J": -0.11123701167525724,
+        "energy_relative_residual": 2.6774964994270754e-07,
+        "net_internal_evaporation_kg": 0.15691426280602433,
+        "surface_liquid_evaporation_kg": 0.008064169838265078,
+        "water_out_kg": 0.1649675537042075,
+        "convective_heat_in_J": 415451.5671600672,
+        "water_enthalpy_out_J": 427362.72813769017
+      }
+    ],
+    "coupled": [
+      {
+        "gauss_order": 2,
+        "water_residual_kg": -1.8675336332929504e-08,
+        "water_relative_residual": 8.475766058652732e-08,
+        "energy_residual_J": 0.008155032293871045,
+        "energy_relative_residual": 1.5601825511359587e-08,
+        "net_internal_evaporation_kg": 0.13800804057818983,
+        "surface_liquid_evaporation_kg": 0.07204443762758249,
+        "water_out_kg": 0.21004030252664582,
+        "convective_heat_in_J": 522697.31435808074,
+        "water_enthalpy_out_J": 543640.8767085818
+      },
+      {
+        "gauss_order": 4,
+        "water_residual_kg": -1.8674683632813327e-08,
+        "water_relative_residual": 8.475469831939995e-08,
+        "energy_residual_J": 0.008138439152389765,
+        "energy_relative_residual": 1.5570080290351415e-08,
+        "net_internal_evaporation_kg": 0.13800804057530874,
+        "surface_liquid_evaporation_kg": 0.07204443763082437,
+        "water_out_kg": 0.21004030252729852,
+        "convective_heat_in_J": 522697.3143762819,
+        "water_enthalpy_out_J": 543640.8767101897
+      }
+    ]
+  }
+}
