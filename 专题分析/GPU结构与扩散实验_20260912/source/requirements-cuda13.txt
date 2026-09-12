@@ -1,0 +1,2 @@
+-r requirements-server-base.txt
+cupy-cuda13x[ctk]==14.2.0

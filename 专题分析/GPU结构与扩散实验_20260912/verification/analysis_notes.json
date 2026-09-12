@@ -1,0 +1,11 @@
+{
+  "difference_direction": "candidate minus explicitly named reference",
+  "censoring": "Unavailable critical/mean/tail events remain NaN; finite mean crossings can still be compared when critical times are censored.",
+  "perturbation": "D_new = D_base * exp(logD_delta * mask). Outer/inner are complementary material-label masks.",
+  "support": "Initial dry-mass weighted fraction with mask>0.5, averaged from t=0 to the recorded integration endpoint.",
+  "strength": "Initial dry-mass weighted mask mean, time averaged; multiply by logD_delta to obtain weighted log-diffusivity exposure.",
+  "lowC": "A dynamic state-dependent window. Its realized exposure is descriptive and cannot be treated as the same fixed input dose as outer/inner masks.",
+  "interpretation": "These are controlled coefficient/deformation scenarios, not observations of real crust formation or parameter confidence intervals.",
+  "integrity_errors": 0,
+  "integrity_issues": 0
+}

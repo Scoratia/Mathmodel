@@ -1,0 +1,7 @@
+# Server ranges stay within the NumPy/SciPy combinations tested by CuPy 14.2.
+# This server environment has not been installed or executed on the local Mac.
+numpy>=2.0,<2.5
+scipy>=1.14,<1.18
+pandas>=2.2,<3.1
+matplotlib>=3.9,<3.12
+openpyxl>=3.1,<4

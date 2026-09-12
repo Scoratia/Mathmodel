@@ -1,0 +1,16 @@
+{
+  "original_inputs": {
+    "附件1.xlsx": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+    "附件2.xlsx": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af"
+  },
+  "inputs_npz_sha256": "c72e582c9cc491bec79787b8862f23cb7570cb4d1f02baa00380ce03a6175e1f",
+  "units": {
+    "time": "s",
+    "radius": "m",
+    "temperature": "Celsius",
+    "moisture": "effective dry-basis ratio"
+  },
+  "radius_end_s": 259200.0,
+  "boundary_end_s": 14400.0,
+  "radius_final_m": 0.01198
+}
